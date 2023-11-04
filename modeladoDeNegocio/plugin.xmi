@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_cf54IXqHEe6pYrzmqHi-DA" guid="_cf54IXqHEe6pYrzmqHi-DA"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_cfm9MHqHEe6pYrzmqHi-DA" name="modeladoDeNegocio" guid="_cfm9MHqHEe6pYrzmqHi-DA">
+    <methodElementProperty xmi:id="_cf54I3qHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9MXqHEe6pYrzmqHi-DA" name="Content" guid="_cfm9MXqHEe6pYrzmqHi-DA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9MnqHEe6pYrzmqHi-DA" name="Categories" guid="_cfm9MnqHEe6pYrzmqHi-DA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9M3qHEe6pYrzmqHi-DA" name="Domains" guid="_cfm9M3qHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9NHqHEe6pYrzmqHi-DA" name="Disciplines" guid="_cfm9NHqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9NXqHEe6pYrzmqHi-DA" name="RoleSets" guid="_cfm9NXqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9NnqHEe6pYrzmqHi-DA" name="WP Types" guid="_cfm9NnqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9N3qHEe6pYrzmqHi-DA" name="Tools" guid="_cfm9N3qHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9OHqHEe6pYrzmqHi-DA" name="StandardCategories" guid="_cfm9OHqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfyjYHqHEe6pYrzmqHi-DA" name="CustomCategories" guid="_cfyjYHqHEe6pYrzmqHi-DA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfyjYXqHEe6pYrzmqHi-DA" name="Hidden" guid="_cfyjYXqHEe6pYrzmqHi-DA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_cfyjYnqHEe6pYrzmqHi-DA" name="Custom Categories" guid="_cfyjYnqHEe6pYrzmqHi-DA" categorizedElements="_RLf3gHs-Ee61W_sbNWyaKw"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_RLf3gHs-Ee61W_sbNWyaKw" name="vistas" guid="_RLf3gHs-Ee61W_sbNWyaKw" presentationName="vistas" categorizedElements="_StKekHs-Ee61W_sbNWyaKw _ckg-MHs-Ee61W_sbNWyaKw _jB7tkHs-Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_SAb7cHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_StKekHs-Ee61W_sbNWyaKw" name="analizar_estado_del_negocio" guid="_StKekHs-Ee61W_sbNWyaKw" presentationName="analizar estado del negocio" categorizedElements="_DpPtEHs2Ee61W_sbNWyaKw _0s7ewHs1Ee61W_sbNWyaKw _I21W0Hs3Ee61W_sbNWyaKw _6Oo-YHs2Ee61W_sbNWyaKw _LTNvIHs2Ee61W_sbNWyaKw _t6JG4Hs2Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_bXslwHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ckg-MHs-Ee61W_sbNWyaKw" name="detallar_el_negocio_actual" guid="_ckg-MHs-Ee61W_sbNWyaKw" presentationName="detallar el negocio actual" categorizedElements="__oBocHs3Ee61W_sbNWyaKw _1M1b8Hs3Ee61W_sbNWyaKw _henIYHs4Ee61W_sbNWyaKw _c8YIwHs3Ee61W_sbNWyaKw _pVc-QHs3Ee61W_sbNWyaKw _tZv6IHs3Ee61W_sbNWyaKw _tx7UIHs4Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_hDCX8Hs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_jB7tkHs-Ee61W_sbNWyaKw" name="diseniar_procesos_de_negocio" guid="_jB7tkHs-Ee61W_sbNWyaKw" presentationName="diseniar procesos de negocio" categorizedElements="_rEPJYHs5Ee61W_sbNWyaKw _dDE7wHs5Ee61W_sbNWyaKw _PPjhgHs5Ee61W_sbNWyaKw _YXGU0Hs5Ee61W_sbNWyaKw _kRNWYHs5Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_mmwfMHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfyjY3qHEe6pYrzmqHi-DA" name="CoreContent" guid="_cfyjY3qHEe6pYrzmqHi-DA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_md8F8Hs0Ee61W_sbNWyaKw" name="analizar_el_estado_del_negocio" guid="_md8F8Hs0Ee61W_sbNWyaKw" presentationName="analizar el estado del negocio" briefDescription="Obtener una visión clara y completa de cómo opera la empresa en el presente, identificar sus fortalezas, debilidades, oportunidades y amenazas. ">
+          <methodElementProperty xmi:id="_md8F8Xs0Ee61W_sbNWyaKw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_ivJDgHs1Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0s7ewHs1Ee61W_sbNWyaKw" name="detallar_un_vocabulario_de_negocio_comn" guid="_0s7ewHs1Ee61W_sbNWyaKw" presentationName="Detallar un vocabulario de negocio común" briefDescription="Identificar, definir y documentar un conjunto de términos y conceptos utilizados dentro de la organización de manera uniforme y clara. Esta tarea es fundamental para garantizar la coherencia y la comprensión compartida entre los diferentes departamentos, equipos y áreas funcionales de la empresa." performedBy="_DpPtEHs2Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_AiAPUHs2Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_DpPtEHs2Ee61W_sbNWyaKw" name="analista_de_procesos_de_negocio" guid="_DpPtEHs2Ee61W_sbNWyaKw" presentationName="Analista de procesos de negocio" briefDescription="El rol de Analista de Procesos de Negocio implica la responsabilidad de examinar, evaluar y mejorar los diferentes aspectos operativos de una empresa. " responsibleFor="_LTNvIHs2Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_I9cKkHs2Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_LTNvIHs2Ee61W_sbNWyaKw" name="reglas_de_negocio" guid="_LTNvIHs2Ee61W_sbNWyaKw" presentationName="Reglas de negocio" briefDescription="Las reglas de negocio son declaraciones o directrices que establecen las políticas, restricciones o condiciones que rigen el comportamiento, las decisiones y las operaciones dentro de una organización. ">
+            <methodElementProperty xmi:id="_SakMUHs2Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_t6JG4Hs2Ee61W_sbNWyaKw" name="validar_reglas_de_negocio" guid="_t6JG4Hs2Ee61W_sbNWyaKw" presentationName="Validar reglas de negocio" briefDescription="Proceso exhaustivo para confirmar la precisión, la coherencia y la eficacia de las reglas establecidas dentro de una organización. " performedBy="_DpPtEHs2Ee61W_sbNWyaKw" mandatoryInput="_LTNvIHs2Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_zOfVYHs2Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6Oo-YHs2Ee61W_sbNWyaKw" name="identificar_objetivo_de_la_organizaci" guid="_6Oo-YHs2Ee61W_sbNWyaKw" presentationName="Identificar objetivo de la organizació" briefDescription=" Proceso de definir y clarificar la misión, la visión y los objetivos fundamentales que orientan las actividades y decisiones de una empresa. " performedBy="_DpPtEHs2Ee61W_sbNWyaKw" mandatoryInput="_LTNvIHs2Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_D6QvIHs3Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_I21W0Hs3Ee61W_sbNWyaKw" name="detallar_y_validar_objetivos" guid="_I21W0Hs3Ee61W_sbNWyaKw" presentationName="Detallar y validar objetivos" briefDescription="Proceso fundamental en la gestión estratégica de una organización, que se enfoca en definir de manera específica y precisa los objetivos planteados y garantizar que estos sean coherentes, alcanzables y alineados con la dirección estratégica de la empresa." performedBy="_DpPtEHs2Ee61W_sbNWyaKw" mandatoryInput="_LTNvIHs2Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_PaWHIHs3Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o798sHs2Ee61W_sbNWyaKw" name="detallar_el_negocio_actual" guid="_o798sHs2Ee61W_sbNWyaKw" presentationName="Detallar el negocio actual">
+          <methodElementProperty xmi:id="_o798sXs2Ee61W_sbNWyaKw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_rQ83EHs2Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_c8YIwHs3Ee61W_sbNWyaKw" name="identificar_actores_del_sistema" guid="_c8YIwHs3Ee61W_sbNWyaKw" presentationName="Identificar Actores del sistema" briefDescription=" Proceso en el que se determinan y analizan los diferentes elementos, individuos, entidades o sistemas que tienen un papel relevante" performedBy="_1M1b8Hs3Ee61W_sbNWyaKw" mandatoryInput="__oBocHs3Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_h4JfMHs3Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pVc-QHs3Ee61W_sbNWyaKw" name="identificar_casos_de_uso" guid="_pVc-QHs3Ee61W_sbNWyaKw" presentationName="Identificar casos de uso" briefDescription="Consiste en identificar y describir los diferentes escenarios o situaciones en las que un sistema será utilizado por sus usuarios. " performedBy="_1M1b8Hs3Ee61W_sbNWyaKw" mandatoryInput="_henIYHs4Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_rXE3wHs3Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_tZv6IHs3Ee61W_sbNWyaKw" name="identificar_stakeholders" guid="_tZv6IHs3Ee61W_sbNWyaKw" presentationName="Identificar stakeholders" briefDescription="proceso de reconocer, identificar y comprender a las partes interesadas " performedBy="_1M1b8Hs3Ee61W_sbNWyaKw" mandatoryInput="_tx7UIHs4Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_ylUAEHs3Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_1M1b8Hs3Ee61W_sbNWyaKw" name="analista_de_procesos_de_negocio" guid="_1M1b8Hs3Ee61W_sbNWyaKw" presentationName="Analista de procesos de negocio" briefDescription="implica la responsabilidad de examinar, evaluar y mejorar los diferentes aspectos operativos de una empresa. ">
+            <methodElementProperty xmi:id="_3AFiQHs3Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__oBocHs3Ee61W_sbNWyaKw" name="actor_del_sistema" guid="__oBocHs3Ee61W_sbNWyaKw" presentationName="Actor del sistema" briefDescription="Cualquier entidad externa que interactúa con el sistema">
+            <methodElementProperty xmi:id="_Fs9mYHs4Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_henIYHs4Ee61W_sbNWyaKw" name="casos_de_uso_del_negocio" guid="_henIYHs4Ee61W_sbNWyaKw" presentationName="Casos de uso del negocio" briefDescription="Representaciones que describen cómo interactúan los actores (ya sean personas, sistemas o entidades externas) con un sistema o proceso de negocio particular. ">
+            <methodElementProperty xmi:id="_pJV_cHs4Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tx7UIHs4Ee61W_sbNWyaKw" name="stakeholders" guid="_tx7UIHs4Ee61W_sbNWyaKw" presentationName="Stakeholders" briefDescription="Individuos, grupos o entidades que tienen un interés, influencia o participación en un proyecto,">
+            <methodElementProperty xmi:id="_yp9aEHs4Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6kXr4Hs4Ee61W_sbNWyaKw" name="diseniar_procesos_de_negocio" guid="_6kXr4Hs4Ee61W_sbNWyaKw" presentationName="Diseñar procesos de negocio" briefDescription="Involucra la planificación, modelado, creación y optimización de los flujos de trabajo y las operaciones dentro de una organización para lograr eficiencia, efectividad y alineación con los objetivos estratégicos. ">
+          <methodElementProperty xmi:id="_6kXr4Xs4Ee61W_sbNWyaKw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_JzhWoHs5Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PPjhgHs5Ee61W_sbNWyaKw" name="identificar_roles_de_negocio" guid="_PPjhgHs5Ee61W_sbNWyaKw" presentationName="Identificar roles de negocio" briefDescription="reconocer y definir las funciones, responsabilidades y posiciones dentro de una organización o proyecto que son críticas para el desempeño de las actividades empresariales. " performedBy="_dDE7wHs5Ee61W_sbNWyaKw" mandatoryInput="_kRNWYHs5Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_SxA2EHs5Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YXGU0Hs5Ee61W_sbNWyaKw" name="identificar_trabajadores_comerciales_y_entidades" guid="_YXGU0Hs5Ee61W_sbNWyaKw" presentationName="Identificar trabajadores comerciales y entidades" briefDescription="reconocer y definir tanto a los individuos que forman parte del entorno comercial de una empresa como a las entidades externas con las que interactúa la organización en el desarrollo de sus actividades comerciales." performedBy="_dDE7wHs5Ee61W_sbNWyaKw" mandatoryInput="_rEPJYHs5Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_bmMuEHs5Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_dDE7wHs5Ee61W_sbNWyaKw" name="diseniador_de_negocios" guid="_dDE7wHs5Ee61W_sbNWyaKw" presentationName="Diseniador de negocios" briefDescription="profesional encargado de estructurar estratégicamente los procesos, las operaciones y los modelos de negocio de una empresa para optimizar su funcionamiento y su capacidad de generar valor.">
+            <methodElementProperty xmi:id="_ilzkgHs5Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kRNWYHs5Ee61W_sbNWyaKw" name="rol_de_negocio" guid="_kRNWYHs5Ee61W_sbNWyaKw" presentationName="Rol de negocio" briefDescription="función o posición específica que desempeña un individuo, un grupo o un conjunto de responsabilidades dentro del contexto de una empresa o proyecto.">
+            <methodElementProperty xmi:id="_obkeAHs5Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rEPJYHs5Ee61W_sbNWyaKw" name="diagrama_de_actividad" guid="_rEPJYHs5Ee61W_sbNWyaKw" presentationName="Diagrama de actividad" briefDescription="Representación visual que ilustra el flujo de actividades, acciones y decisiones que ocurren en un sistema, proceso o procedimiento. ">
+            <methodElementProperty xmi:id="_viYvsHs5Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cfyjZHqHEe6pYrzmqHi-DA" name="CapabilityPatterns" guid="_cfyjZHqHEe6pYrzmqHi-DA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cfyjZXqHEe6pYrzmqHi-DA" name="DeliveryProcesses" guid="_cfyjZXqHEe6pYrzmqHi-DA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cfyjZnqHEe6pYrzmqHi-DA" name="ProcessContributions" guid="_cfyjZnqHEe6pYrzmqHi-DA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

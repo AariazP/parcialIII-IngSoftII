@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_lPVtcHqHEe6pYrzmqHi-DA" guid="_lPVtcHqHEe6pYrzmqHi-DA"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_lPL8cHqHEe6pYrzmqHi-DA" name="requisitos" guid="_lPL8cHqHEe6pYrzmqHi-DA">
+    <methodElementProperty xmi:id="_lPVtcnqHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8cXqHEe6pYrzmqHi-DA" name="Content" guid="_lPL8cXqHEe6pYrzmqHi-DA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8cnqHEe6pYrzmqHi-DA" name="Categories" guid="_lPL8cnqHEe6pYrzmqHi-DA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8c3qHEe6pYrzmqHi-DA" name="Domains" guid="_lPL8c3qHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8dHqHEe6pYrzmqHi-DA" name="Disciplines" guid="_lPL8dHqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8dXqHEe6pYrzmqHi-DA" name="RoleSets" guid="_lPL8dXqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8dnqHEe6pYrzmqHi-DA" name="WP Types" guid="_lPL8dnqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8d3qHEe6pYrzmqHi-DA" name="Tools" guid="_lPL8d3qHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8eHqHEe6pYrzmqHi-DA" name="StandardCategories" guid="_lPL8eHqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8eXqHEe6pYrzmqHi-DA" name="CustomCategories" guid="_lPL8eXqHEe6pYrzmqHi-DA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8enqHEe6pYrzmqHi-DA" name="Hidden" guid="_lPL8enqHEe6pYrzmqHi-DA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_lPL8e3qHEe6pYrzmqHi-DA" name="Custom Categories" guid="_lPL8e3qHEe6pYrzmqHi-DA" categorizedElements="_x3qBIHs9Ee61W_sbNWyaKw"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_x3qBIHs9Ee61W_sbNWyaKw" name="vistas" guid="_x3qBIHs9Ee61W_sbNWyaKw" presentationName="vistas" categorizedElements="_Kkkm0Hs-Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_48mqkHs9Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Kkkm0Hs-Ee61W_sbNWyaKw" name="requisitos" guid="_Kkkm0Hs-Ee61W_sbNWyaKw" presentationName="requisitos" categorizedElements="_alLOkHs8Ee61W_sbNWyaKw _IEF5AHs8Ee61W_sbNWyaKw _REb4IHs8Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_NGg_IHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8fHqHEe6pYrzmqHi-DA" name="CoreContent" guid="_lPL8fHqHEe6pYrzmqHi-DA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_3PWJcHs7Ee61W_sbNWyaKw" name="administrar_requisitos_de_cambio" guid="_3PWJcHs7Ee61W_sbNWyaKw" presentationName="Administrar requisitos de cambio" briefDescription="manejar y controlar las modificaciones propuestas en los requisitos de un proyecto. ">
+          <methodElementProperty xmi:id="_3PWJcXs7Ee61W_sbNWyaKw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_HIw5MHs8Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IEF5AHs8Ee61W_sbNWyaKw" name="refinar_requisitos" guid="_IEF5AHs8Ee61W_sbNWyaKw" presentationName="Refinar requisitos" briefDescription="Esta actividad implica revisar, clarificar, mejorar y detallar los requisitos iniciales del proyecto." performedBy="_REb4IHs8Ee61W_sbNWyaKw" mandatoryInput="_alLOkHs8Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_PmM_kHs8Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_REb4IHs8Ee61W_sbNWyaKw" name="revisor_de_requisitos" guid="_REb4IHs8Ee61W_sbNWyaKw" presentationName="Revisor de requisitos" briefDescription="Responsable de analizar, examinar y validar la calidad, claridad, consistencia y viabilidad de los requisitos del proyecto.">
+            <methodElementProperty xmi:id="_YiGjkHs8Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_alLOkHs8Ee61W_sbNWyaKw" name="formularios_en_papel" guid="_alLOkHs8Ee61W_sbNWyaKw" presentationName="Formularios en papel" briefDescription="Documentos impresos preestructurados diseñados para recopilar información específica de manera escrita. ">
+            <methodElementProperty xmi:id="_l0LdoHs8Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lPL8fXqHEe6pYrzmqHi-DA" name="CapabilityPatterns" guid="_lPL8fXqHEe6pYrzmqHi-DA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lPL8fnqHEe6pYrzmqHi-DA" name="DeliveryProcesses" guid="_lPL8fnqHEe6pYrzmqHi-DA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lPL8f3qHEe6pYrzmqHi-DA" name="ProcessContributions" guid="_lPL8f3qHEe6pYrzmqHi-DA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

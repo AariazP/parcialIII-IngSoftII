@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_RkNmoXqHEe6pYrzmqHi-DA" guid="_RkNmoXqHEe6pYrzmqHi-DA">
+    <subManagers xmi:id="_cf54IXqHEe6pYrzmqHi-DA" href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_cf54IXqHEe6pYrzmqHi-DA"/>
+    <subManagers xmi:id="_gneKcHqHEe6pYrzmqHi-DA" href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_gneKcHqHEe6pYrzmqHi-DA"/>
+    <subManagers xmi:id="_lPVtcHqHEe6pYrzmqHi-DA" href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_lPVtcHqHEe6pYrzmqHi-DA"/>
+    <resourceDescriptors xmi:id="_RkNmonqHEe6pYrzmqHi-DA" id="_RkNmoHqHEe6pYrzmqHi-DA" uri=""/>
+    <resourceDescriptors xmi:id="_cf54InqHEe6pYrzmqHi-DA" id="_cfm9MHqHEe6pYrzmqHi-DA" uri="modeladoDeNegocio/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_gneKcXqHEe6pYrzmqHi-DA" id="_gnTyYHqHEe6pYrzmqHi-DA" uri="analisisDisenio/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_lPVtcXqHEe6pYrzmqHi-DA" id="_lPL8cHqHEe6pYrzmqHi-DA" uri="requisitos/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_RkNmoHqHEe6pYrzmqHi-DA" name="parcial3-IngSoftII" guid="_RkNmoHqHEe6pYrzmqHi-DA">
+    <methodElementProperty xmi:id="_RljqcHqHEe6pYrzmqHi-DA" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_cfm9MHqHEe6pYrzmqHi-DA" href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_cfm9MHqHEe6pYrzmqHi-DA"/>
+    <methodPlugins xmi:id="_gnTyYHqHEe6pYrzmqHi-DA" href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_gnTyYHqHEe6pYrzmqHi-DA"/>
+    <methodPlugins xmi:id="_lPL8cHqHEe6pYrzmqHi-DA" href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_lPL8cHqHEe6pYrzmqHi-DA"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_gneKcHqHEe6pYrzmqHi-DA" guid="_gneKcHqHEe6pYrzmqHi-DA"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_gnTyYHqHEe6pYrzmqHi-DA" name="analisisDisenio" guid="_gnTyYHqHEe6pYrzmqHi-DA">
+    <methodElementProperty xmi:id="_gneKcnqHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyYXqHEe6pYrzmqHi-DA" name="Content" guid="_gnTyYXqHEe6pYrzmqHi-DA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyYnqHEe6pYrzmqHi-DA" name="Categories" guid="_gnTyYnqHEe6pYrzmqHi-DA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyY3qHEe6pYrzmqHi-DA" name="Domains" guid="_gnTyY3qHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyZHqHEe6pYrzmqHi-DA" name="Disciplines" guid="_gnTyZHqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyZXqHEe6pYrzmqHi-DA" name="RoleSets" guid="_gnTyZXqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyZnqHEe6pYrzmqHi-DA" name="WP Types" guid="_gnTyZnqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyZ3qHEe6pYrzmqHi-DA" name="Tools" guid="_gnTyZ3qHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyaHqHEe6pYrzmqHi-DA" name="StandardCategories" guid="_gnTyaHqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyaXqHEe6pYrzmqHi-DA" name="CustomCategories" guid="_gnTyaXqHEe6pYrzmqHi-DA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyanqHEe6pYrzmqHi-DA" name="Hidden" guid="_gnTyanqHEe6pYrzmqHi-DA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_gnTya3qHEe6pYrzmqHi-DA" name="Custom Categories" guid="_gnTya3qHEe6pYrzmqHi-DA" categorizedElements="_pMFisHs-Ee61W_sbNWyaKw"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_pMFisHs-Ee61W_sbNWyaKw" name="vistas" guid="_pMFisHs-Ee61W_sbNWyaKw" presentationName="vistas" categorizedElements="_4hBsYHs-Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_p8mZoHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_4hBsYHs-Ee61W_sbNWyaKw" name="diseniar_componentes" guid="_4hBsYHs-Ee61W_sbNWyaKw" presentationName="diseniar componentes" categorizedElements="_o6QIoHs6Ee61W_sbNWyaKw _u1pJAHs6Ee61W_sbNWyaKw _Uey7oHs7Ee61W_sbNWyaKw _ZOR_AHs6Ee61W_sbNWyaKw _QbabMHs6Ee61W_sbNWyaKw _hl8NgHs6Ee61W_sbNWyaKw _s71uwHs6Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_6k5ooHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTybHqHEe6pYrzmqHi-DA" name="CoreContent" guid="_gnTybHqHEe6pYrzmqHi-DA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9cw_4Hs5Ee61W_sbNWyaKw" name="diseniar_componentes" guid="_9cw_4Hs5Ee61W_sbNWyaKw" presentationName="Diseniar componentes" briefDescription="Proceso de conceptualizar, crear y especificar los elementos individuales que formarán parte del sistema.">
+          <methodElementProperty xmi:id="_9cw_4Xs5Ee61W_sbNWyaKw" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_LwQToHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QbabMHs6Ee61W_sbNWyaKw" name="diseniar_clases" guid="_QbabMHs6Ee61W_sbNWyaKw" presentationName="Diseniar clases" briefDescription="Implica la conceptualización, definición y planificación de las clases que formarán parte de un sistema orientado a objetos. " performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_o6QIoHs6Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_XNsnUHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZOR_AHs6Ee61W_sbNWyaKw" name="diseniar_casos_de_uso" guid="_ZOR_AHs6Ee61W_sbNWyaKw" presentationName="Diseniar casos de uso" briefDescription="Implica la creación y la especificación detallada de las interacciones entre un sistema y sus actores " performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_s71uwHs6Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_f0pPAHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_hl8NgHs6Ee61W_sbNWyaKw" name="diseniar_diagrama_de_sequencia" guid="_hl8NgHs6Ee61W_sbNWyaKw" presentationName="Diseniar diagrama de sequencia" briefDescription=" Representación visual de la interacción entre los objetos o componentes dentro de un sistema." performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_u1pJAHs6Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_mYf9kHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_o6QIoHs6Ee61W_sbNWyaKw" name="diagrama_de_clases" guid="_o6QIoHs6Ee61W_sbNWyaKw" presentationName="diagrama de clases" briefDescription="representación visual estática de la estructura y las relaciones entre las clases que forman parte de un sistema.">
+            <methodElementProperty xmi:id="_zn9ogHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_s71uwHs6Ee61W_sbNWyaKw" name="interface_de_usuario" guid="_s71uwHs6Ee61W_sbNWyaKw" presentationName="interface de usuario" briefDescription="Medio a través del cual un usuario interactúa con un sistema informático, aplicaciones, software o dispositivos electrónicos.">
+            <methodElementProperty xmi:id="_6PsxgHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_u1pJAHs6Ee61W_sbNWyaKw" name="diagrama_de_sequencia" guid="_u1pJAHs6Ee61W_sbNWyaKw" presentationName="diagrama de sequencia" briefDescription="Representa visualmente la secuencia de interacciones entre los objetos en un escenario específico">
+            <methodElementProperty xmi:id="_9muXsHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Uey7oHs7Ee61W_sbNWyaKw" name="diseniador" guid="_Uey7oHs7Ee61W_sbNWyaKw" presentationName="diseniador" briefDescription="profesional que se especializa en la concepción, planificación, y creación de la estructura, interacción del software">
+            <methodElementProperty xmi:id="_eR0U4Hs7Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gnTybXqHEe6pYrzmqHi-DA" name="CapabilityPatterns" guid="_gnTybXqHEe6pYrzmqHi-DA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gnTybnqHEe6pYrzmqHi-DA" name="DeliveryProcesses" guid="_gnTybnqHEe6pYrzmqHi-DA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gnTyb3qHEe6pYrzmqHi-DA" name="ProcessContributions" guid="_gnTyb3qHEe6pYrzmqHi-DA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
