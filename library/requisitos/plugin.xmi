@@ -5,21 +5,36 @@
     <methodElementProperty xmi:id="_lPVtcnqHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8cXqHEe6pYrzmqHi-DA" name="Content" guid="_lPL8cXqHEe6pYrzmqHi-DA">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8cnqHEe6pYrzmqHi-DA" name="Categories" guid="_lPL8cnqHEe6pYrzmqHi-DA">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8c3qHEe6pYrzmqHi-DA" name="Domains" guid="_lPL8c3qHEe6pYrzmqHi-DA"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8dHqHEe6pYrzmqHi-DA" name="Disciplines" guid="_lPL8dHqHEe6pYrzmqHi-DA"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8dXqHEe6pYrzmqHi-DA" name="RoleSets" guid="_lPL8dXqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8c3qHEe6pYrzmqHi-DA" name="Domains" guid="_lPL8c3qHEe6pYrzmqHi-DA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_ut1xcH5nEe68YMka0LkFQg" name="datos" guid="_ut1xcH5nEe68YMka0LkFQg" presentationName="datos" workProducts="_alLOkHs8Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_wPXOkH5nEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8dHqHEe6pYrzmqHi-DA" name="Disciplines" guid="_lPL8dHqHEe6pYrzmqHi-DA">
+          <contentElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" xmi:id="_qVYDwH5kEe68YMka0LkFQg" name="requisitos" guid="_qVYDwH5kEe68YMka0LkFQg" presentationName="requisitos" disciplines="_IEEhQH5lEe68YMka0LkFQg">
+            <methodElementProperty xmi:id="_vxSS0H5kEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_IEEhQH5lEe68YMka0LkFQg" name="definicion_de_requisitos" guid="_IEEhQH5lEe68YMka0LkFQg" presentationName="definicion de requisitos" tasks="_q-mrIH5dEe68YMka0LkFQg _wmhV4H5dEe68YMka0LkFQg _IEF5AHs8Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_JeBWwH5lEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8dXqHEe6pYrzmqHi-DA" name="RoleSets" guid="_lPL8dXqHEe6pYrzmqHi-DA">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSetGrouping" xmi:id="_QBKwIH5kEe68YMka0LkFQg" name="roles_de_requisitos" guid="_QBKwIH5kEe68YMka0LkFQg" presentationName="roles de requisitos" roleSets="_SYM48H5kEe68YMka0LkFQg">
+            <methodElementProperty xmi:id="_R6jToH5kEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_SYM48H5kEe68YMka0LkFQg" name="revisores" guid="_SYM48H5kEe68YMka0LkFQg" presentationName="revisores" roles="_REb4IHs8Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_TygTwH5kEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8dnqHEe6pYrzmqHi-DA" name="WP Types" guid="_lPL8dnqHEe6pYrzmqHi-DA"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8d3qHEe6pYrzmqHi-DA" name="Tools" guid="_lPL8d3qHEe6pYrzmqHi-DA"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8eHqHEe6pYrzmqHi-DA" name="StandardCategories" guid="_lPL8eHqHEe6pYrzmqHi-DA"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8eXqHEe6pYrzmqHi-DA" name="CustomCategories" guid="_lPL8eXqHEe6pYrzmqHi-DA">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8enqHEe6pYrzmqHi-DA" name="Hidden" guid="_lPL8enqHEe6pYrzmqHi-DA">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_lPL8e3qHEe6pYrzmqHi-DA" name="Custom Categories" guid="_lPL8e3qHEe6pYrzmqHi-DA" categorizedElements="_x3qBIHs9Ee61W_sbNWyaKw"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_lPL8e3qHEe6pYrzmqHi-DA" name="Custom Categories" guid="_lPL8e3qHEe6pYrzmqHi-DA" categorizedElements="_450dQH5nEe68YMka0LkFQg"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_x3qBIHs9Ee61W_sbNWyaKw" name="vistas" guid="_x3qBIHs9Ee61W_sbNWyaKw" presentationName="vistas" categorizedElements="_Kkkm0Hs-Ee61W_sbNWyaKw">
-            <methodElementProperty xmi:id="_48mqkHs9Ee61W_sbNWyaKw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Kkkm0Hs-Ee61W_sbNWyaKw" name="requisitos" guid="_Kkkm0Hs-Ee61W_sbNWyaKw" presentationName="requisitos" categorizedElements="_alLOkHs8Ee61W_sbNWyaKw _IEF5AHs8Ee61W_sbNWyaKw _REb4IHs8Ee61W_sbNWyaKw">
-            <methodElementProperty xmi:id="_NGg_IHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_450dQH5nEe68YMka0LkFQg" name="recabacion_de_requisitos" guid="_450dQH5nEe68YMka0LkFQg" presentationName="recabacion de requisitos" categorizedElements="_ut1xcH5nEe68YMka0LkFQg _qVYDwH5kEe68YMka0LkFQg _QBKwIH5kEe68YMka0LkFQg">
+            <methodElementProperty xmi:id="_8WoiYH5nEe68YMka0LkFQg" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>

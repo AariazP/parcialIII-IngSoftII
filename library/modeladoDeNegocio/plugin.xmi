@@ -7,27 +7,39 @@
     <methodElementProperty xmi:id="_cf54I3qHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9MXqHEe6pYrzmqHi-DA" name="Content" guid="_cfm9MXqHEe6pYrzmqHi-DA">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9MnqHEe6pYrzmqHi-DA" name="Categories" guid="_cfm9MnqHEe6pYrzmqHi-DA">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9M3qHEe6pYrzmqHi-DA" name="Domains" guid="_cfm9M3qHEe6pYrzmqHi-DA"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9NHqHEe6pYrzmqHi-DA" name="Disciplines" guid="_cfm9NHqHEe6pYrzmqHi-DA"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9NXqHEe6pYrzmqHi-DA" name="RoleSets" guid="_cfm9NXqHEe6pYrzmqHi-DA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9M3qHEe6pYrzmqHi-DA" name="Domains" guid="_cfm9M3qHEe6pYrzmqHi-DA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="__5A5cH5mEe68YMka0LkFQg" name="procesos" guid="__5A5cH5mEe68YMka0LkFQg" presentationName="procesos" workProducts="_LTNvIHs2Ee61W_sbNWyaKw _henIYHs4Ee61W_sbNWyaKw _rEPJYHs5Ee61W_sbNWyaKw __oBocHs3Ee61W_sbNWyaKw _tx7UIHs4Ee61W_sbNWyaKw _kRNWYHs5Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_BXnlcH5nEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9NHqHEe6pYrzmqHi-DA" name="Disciplines" guid="_cfm9NHqHEe6pYrzmqHi-DA">
+          <contentElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" xmi:id="_yuRy8H5lEe68YMka0LkFQg" name="modelado_de_negocio" guid="_yuRy8H5lEe68YMka0LkFQg" presentationName="modelado de negocio" disciplines="_AmQPYH5mEe68YMka0LkFQg">
+            <methodElementProperty xmi:id="_0KG3wH5lEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_AmQPYH5mEe68YMka0LkFQg" name="modelo_del_negocio" guid="_AmQPYH5mEe68YMka0LkFQg" presentationName="modelo del negocio" tasks="_N1ljAH5cEe68YMka0LkFQg _eUm6MH5cEe68YMka0LkFQg _c8YIwHs3Ee61W_sbNWyaKw _pVc-QHs3Ee61W_sbNWyaKw _tZv6IHs3Ee61W_sbNWyaKw _8N1MsH5cEe68YMka0LkFQg _B-inEH5dEe68YMka0LkFQg _XF_XYH5cEe68YMka0LkFQg _3YeAQH5cEe68YMka0LkFQg _0s7ewHs1Ee61W_sbNWyaKw _I21W0Hs3Ee61W_sbNWyaKw _6Oo-YHs2Ee61W_sbNWyaKw _t6JG4Hs2Ee61W_sbNWyaKw _ThzpgH5dEe68YMka0LkFQg _M-H6EH5dEe68YMka0LkFQg _YoPX0H5dEe68YMka0LkFQg _PPjhgHs5Ee61W_sbNWyaKw _YXGU0Hs5Ee61W_sbNWyaKw _dB9KEH5dEe68YMka0LkFQg">
+            <methodElementProperty xmi:id="_Zu8LEH5mEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9NXqHEe6pYrzmqHi-DA" name="RoleSets" guid="_cfm9NXqHEe6pYrzmqHi-DA">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSetGrouping" xmi:id="_X8igsH5jEe68YMka0LkFQg" name="roles_del_negocio" guid="_X8igsH5jEe68YMka0LkFQg" presentationName="roles del negocio" roleSets="_iQYIAH5jEe68YMka0LkFQg _rkW00H5jEe68YMka0LkFQg">
+            <methodElementProperty xmi:id="_Z05JcH5jEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_iQYIAH5jEe68YMka0LkFQg" name="negocios" guid="_iQYIAH5jEe68YMka0LkFQg" presentationName="negocios" roles="_DpPtEHs2Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_q_GLoH5jEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_rkW00H5jEe68YMka0LkFQg" name="diseniadores" guid="_rkW00H5jEe68YMka0LkFQg" presentationName="diseniadores" roles="_dDE7wHs5Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_soSXAH5jEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9NnqHEe6pYrzmqHi-DA" name="WP Types" guid="_cfm9NnqHEe6pYrzmqHi-DA"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9N3qHEe6pYrzmqHi-DA" name="Tools" guid="_cfm9N3qHEe6pYrzmqHi-DA"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9OHqHEe6pYrzmqHi-DA" name="StandardCategories" guid="_cfm9OHqHEe6pYrzmqHi-DA"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfyjYHqHEe6pYrzmqHi-DA" name="CustomCategories" guid="_cfyjYHqHEe6pYrzmqHi-DA">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfyjYXqHEe6pYrzmqHi-DA" name="Hidden" guid="_cfyjYXqHEe6pYrzmqHi-DA">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_cfyjYnqHEe6pYrzmqHi-DA" name="Custom Categories" guid="_cfyjYnqHEe6pYrzmqHi-DA" categorizedElements="_RLf3gHs-Ee61W_sbNWyaKw"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_cfyjYnqHEe6pYrzmqHi-DA" name="Custom Categories" guid="_cfyjYnqHEe6pYrzmqHi-DA" categorizedElements="_KoUfUH5oEe68YMka0LkFQg"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_RLf3gHs-Ee61W_sbNWyaKw" name="vistas" guid="_RLf3gHs-Ee61W_sbNWyaKw" presentationName="vistas" categorizedElements="_StKekHs-Ee61W_sbNWyaKw _ckg-MHs-Ee61W_sbNWyaKw _jB7tkHs-Ee61W_sbNWyaKw">
-            <methodElementProperty xmi:id="_SAb7cHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_StKekHs-Ee61W_sbNWyaKw" name="analizar_estado_del_negocio" guid="_StKekHs-Ee61W_sbNWyaKw" presentationName="analizar estado del negocio" categorizedElements="_DpPtEHs2Ee61W_sbNWyaKw _0s7ewHs1Ee61W_sbNWyaKw _I21W0Hs3Ee61W_sbNWyaKw _6Oo-YHs2Ee61W_sbNWyaKw _LTNvIHs2Ee61W_sbNWyaKw _t6JG4Hs2Ee61W_sbNWyaKw">
-            <methodElementProperty xmi:id="_bXslwHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ckg-MHs-Ee61W_sbNWyaKw" name="detallar_el_negocio_actual" guid="_ckg-MHs-Ee61W_sbNWyaKw" presentationName="detallar el negocio actual" categorizedElements="__oBocHs3Ee61W_sbNWyaKw _1M1b8Hs3Ee61W_sbNWyaKw _henIYHs4Ee61W_sbNWyaKw _c8YIwHs3Ee61W_sbNWyaKw _pVc-QHs3Ee61W_sbNWyaKw _tZv6IHs3Ee61W_sbNWyaKw _tx7UIHs4Ee61W_sbNWyaKw">
-            <methodElementProperty xmi:id="_hDCX8Hs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_jB7tkHs-Ee61W_sbNWyaKw" name="diseniar_procesos_de_negocio" guid="_jB7tkHs-Ee61W_sbNWyaKw" presentationName="diseniar procesos de negocio" categorizedElements="_rEPJYHs5Ee61W_sbNWyaKw _dDE7wHs5Ee61W_sbNWyaKw _PPjhgHs5Ee61W_sbNWyaKw _YXGU0Hs5Ee61W_sbNWyaKw _kRNWYHs5Ee61W_sbNWyaKw">
-            <methodElementProperty xmi:id="_mmwfMHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_KoUfUH5oEe68YMka0LkFQg" name="modelado_de_negocio" guid="_KoUfUH5oEe68YMka0LkFQg" presentationName="modelado de negocio" categorizedElements="__5A5cH5mEe68YMka0LkFQg _yuRy8H5lEe68YMka0LkFQg _X8igsH5jEe68YMka0LkFQg">
+            <methodElementProperty xmi:id="_MQ1VQH5oEe68YMka0LkFQg" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>

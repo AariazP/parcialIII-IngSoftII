@@ -50,12 +50,4 @@
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_lPL8eXqHEe6pYrzmqHi-DA"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_lPL8eHqHEe6pYrzmqHi-DA"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_lPL8enqHEe6pYrzmqHi-DA"/>
-  <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_pMFisHs-Ee61W_sbNWyaKw"/>
-  <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_4hBsYHs-Ee61W_sbNWyaKw"/>
-  <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_RLf3gHs-Ee61W_sbNWyaKw"/>
-  <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_StKekHs-Ee61W_sbNWyaKw"/>
-  <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_ckg-MHs-Ee61W_sbNWyaKw"/>
-  <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_jB7tkHs-Ee61W_sbNWyaKw"/>
-  <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_x3qBIHs9Ee61W_sbNWyaKw"/>
-  <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_Kkkm0Hs-Ee61W_sbNWyaKw"/>
 </org.eclipse.epf.uma:MethodConfiguration>
