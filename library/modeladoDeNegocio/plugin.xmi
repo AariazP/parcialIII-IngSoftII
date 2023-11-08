@@ -88,6 +88,15 @@
             <methodElementProperty xmi:id="_jQK1QH5cEe68YMka0LkFQg" name="me_edited" value="true"/>
             <presentation xmi:id="-GchlpZk-MSohvEXf-48Ctg" href="uma://-GchlpZk-MSohvEXf-48Ctg#-GchlpZk-MSohvEXf-48Ctg"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3YeAQH5cEe68YMka0LkFQg" name="refinar_los_casos_de_uso_de_negocio" guid="_3YeAQH5cEe68YMka0LkFQg" presentationName="Refinar los Casos de Uso de Negocio" performedBy="_DpPtEHs2Ee61W_sbNWyaKw" mandatoryInput="_henIYHs4Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_6rID0H5cEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8N1MsH5cEe68YMka0LkFQg" name="involucrar_y_validar_con_los_stakeholders" guid="_8N1MsH5cEe68YMka0LkFQg" presentationName="Involucrar y Validar con los Stakeholders" performedBy="_DpPtEHs2Ee61W_sbNWyaKw" mandatoryInput="_tx7UIHs4Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_AghJ4H5dEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_B-inEH5dEe68YMka0LkFQg" name="priorizar_y_gestionar_las_expectativas_de_los_stakeholders" guid="_B-inEH5dEe68YMka0LkFQg" presentationName="Priorizar y Gestionar las Expectativas de los Stakeholders" performedBy="_DpPtEHs2Ee61W_sbNWyaKw" mandatoryInput="_tx7UIHs4Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_F2YbUH5dEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6kXr4Hs4Ee61W_sbNWyaKw" name="diseniar_procesos_de_negocio" guid="_6kXr4Hs4Ee61W_sbNWyaKw" presentationName="Diseñar procesos de negocio" briefDescription="Involucra la planificación, modelado, creación y optimización de los flujos de trabajo y las operaciones dentro de una organización para lograr eficiencia, efectividad y alineación con los objetivos estratégicos. ">
           <methodElementProperty xmi:id="_6kXr4Xs4Ee61W_sbNWyaKw" name="pkg_loadCheck" value="true"/>
@@ -106,6 +115,18 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rEPJYHs5Ee61W_sbNWyaKw" name="diagrama_de_actividad" guid="_rEPJYHs5Ee61W_sbNWyaKw" presentationName="Diagrama de actividad" briefDescription="Representación visual que ilustra el flujo de actividades, acciones y decisiones que ocurren en un sistema, proceso o procedimiento. ">
             <methodElementProperty xmi:id="_viYvsHs5Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_M-H6EH5dEe68YMka0LkFQg" name="definir_relaciones_y_dependencias_entre_los_roles_de_negocio" guid="_M-H6EH5dEe68YMka0LkFQg" presentationName="Definir Relaciones y Dependencias entre los Roles de Negocio" performedBy="_dDE7wHs5Ee61W_sbNWyaKw" mandatoryInput="_kRNWYHs5Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_RLRP8H5dEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ThzpgH5dEe68YMka0LkFQg" name="capacitacin_y_desarrollo_de_competencias" guid="_ThzpgH5dEe68YMka0LkFQg" presentationName="Capacitación y Desarrollo de Competencias" performedBy="_dDE7wHs5Ee61W_sbNWyaKw" mandatoryInput="_kRNWYHs5Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_W3cIkH5dEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YoPX0H5dEe68YMka0LkFQg" name="identificar_actividades_clave" guid="_YoPX0H5dEe68YMka0LkFQg" presentationName="Identificar Actividades Clave" performedBy="_dDE7wHs5Ee61W_sbNWyaKw" mandatoryInput="_rEPJYHs5Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_bld98H5dEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_dB9KEH5dEe68YMka0LkFQg" name="validar_y_verificar_el_diagrama" guid="_dB9KEH5dEe68YMka0LkFQg" presentationName="Validar y Verificar el Diagrama" performedBy="_dDE7wHs5Ee61W_sbNWyaKw" mandatoryInput="_rEPJYHs5Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_gCT8sH5dEe68YMka0LkFQg" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>

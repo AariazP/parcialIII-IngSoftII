@@ -18,7 +18,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_pMFisHs-Ee61W_sbNWyaKw" name="vistas" guid="_pMFisHs-Ee61W_sbNWyaKw" presentationName="vistas" categorizedElements="_4hBsYHs-Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_p8mZoHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_4hBsYHs-Ee61W_sbNWyaKw" name="diseniar_componentes" guid="_4hBsYHs-Ee61W_sbNWyaKw" presentationName="diseniar componentes" categorizedElements="_o6QIoHs6Ee61W_sbNWyaKw _u1pJAHs6Ee61W_sbNWyaKw _Uey7oHs7Ee61W_sbNWyaKw _ZOR_AHs6Ee61W_sbNWyaKw _QbabMHs6Ee61W_sbNWyaKw _hl8NgHs6Ee61W_sbNWyaKw _s71uwHs6Ee61W_sbNWyaKw">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_4hBsYHs-Ee61W_sbNWyaKw" name="diseniar_componentes" guid="_4hBsYHs-Ee61W_sbNWyaKw" presentationName="diseniar componentes" categorizedElements="_o6QIoHs6Ee61W_sbNWyaKw _u1pJAHs6Ee61W_sbNWyaKw _Uey7oHs7Ee61W_sbNWyaKw _QbabMHs6Ee61W_sbNWyaKw _hl8NgHs6Ee61W_sbNWyaKw _s71uwHs6Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_6k5ooHs-Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
@@ -29,9 +29,6 @@
           <methodElementProperty xmi:id="_LwQToHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QbabMHs6Ee61W_sbNWyaKw" name="diseniar_clases" guid="_QbabMHs6Ee61W_sbNWyaKw" presentationName="Diseniar clases" briefDescription="Implica la conceptualización, definición y planificación de las clases que formarán parte de un sistema orientado a objetos. " performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_o6QIoHs6Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_XNsnUHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ZOR_AHs6Ee61W_sbNWyaKw" name="diseniar_casos_de_uso" guid="_ZOR_AHs6Ee61W_sbNWyaKw" presentationName="Diseniar casos de uso" briefDescription="Implica la creación y la especificación detallada de las interacciones entre un sistema y sus actores " performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_s71uwHs6Ee61W_sbNWyaKw">
-            <methodElementProperty xmi:id="_f0pPAHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_hl8NgHs6Ee61W_sbNWyaKw" name="diseniar_diagrama_de_sequencia" guid="_hl8NgHs6Ee61W_sbNWyaKw" presentationName="Diseniar diagrama de sequencia" briefDescription=" Representación visual de la interacción entre los objetos o componentes dentro de un sistema." performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_u1pJAHs6Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_mYf9kHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
@@ -47,6 +44,27 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Uey7oHs7Ee61W_sbNWyaKw" name="diseniador" guid="_Uey7oHs7Ee61W_sbNWyaKw" presentationName="diseniador" briefDescription="profesional que se especializa en la concepción, planificación, y creación de la estructura, interacción del software">
             <methodElementProperty xmi:id="_eR0U4Hs7Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8UbugH5dEe68YMka0LkFQg" name="detallar_clases" guid="_8UbugH5dEe68YMka0LkFQg" presentationName="Detallar clases" performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_o6QIoHs6Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="__yctgH5dEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BRjIwH5eEe68YMka0LkFQg" name="refinar_clases" guid="_BRjIwH5eEe68YMka0LkFQg" presentationName="Refinar clases" performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_o6QIoHs6Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_DnivwH5eEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_E5vXcH5eEe68YMka0LkFQg" name="detallar_interfaces_de_usuario" guid="_E5vXcH5eEe68YMka0LkFQg" presentationName="Detallar interfaces de usuario" performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_s71uwHs6Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_Hz9F0H5eEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_O0AoMH5eEe68YMka0LkFQg" name="refinar_interfaces_de_usuario" guid="_O0AoMH5eEe68YMka0LkFQg" presentationName="Refinar interfaces de usuario" performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_s71uwHs6Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_Xxp4oH5eEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jkHaEH5eEe68YMka0LkFQg" name="detallar_diagrama_de_sequencia" guid="_jkHaEH5eEe68YMka0LkFQg" presentationName="Detallar diagrama de sequencia" performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_u1pJAHs6Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_maLoQH5eEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ouWqUH5eEe68YMka0LkFQg" name="refinar_diagrama_de_sequencia" guid="_ouWqUH5eEe68YMka0LkFQg" presentationName="Refinar diagrama de sequencia" performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_u1pJAHs6Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_sMZegH5eEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3706EH5eEe68YMka0LkFQg" name="disear_interfaces_de_usuario" guid="_3706EH5eEe68YMka0LkFQg" presentationName="Diseñar interfaces de usuario" performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_s71uwHs6Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_6VAX8H5eEe68YMka0LkFQg" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>

@@ -36,6 +36,12 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_alLOkHs8Ee61W_sbNWyaKw" name="formularios_en_papel" guid="_alLOkHs8Ee61W_sbNWyaKw" presentationName="Formularios en papel" briefDescription="Documentos impresos preestructurados diseñados para recopilar información específica de manera escrita. ">
             <methodElementProperty xmi:id="_l0LdoHs8Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_q-mrIH5dEe68YMka0LkFQg" name="definir_requisitos" guid="_q-mrIH5dEe68YMka0LkFQg" presentationName="Definir requisitos" performedBy="_REb4IHs8Ee61W_sbNWyaKw" mandatoryInput="_alLOkHs8Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_vMExIH5dEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wmhV4H5dEe68YMka0LkFQg" name="detallar_requisitos" guid="_wmhV4H5dEe68YMka0LkFQg" presentationName="Detallar requisitos" performedBy="_REb4IHs8Ee61W_sbNWyaKw" mandatoryInput="_alLOkHs8Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_0XWjMH5dEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lPL8fXqHEe6pYrzmqHi-DA" name="CapabilityPatterns" guid="_lPL8fXqHEe6pYrzmqHi-DA"/>
