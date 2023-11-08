@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_cf54IXqHEe6pYrzmqHi-DA" guid="_cf54IXqHEe6pYrzmqHi-DA"/>
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_cf54IXqHEe6pYrzmqHi-DA" guid="_cf54IXqHEe6pYrzmqHi-DA">
+    <resourceDescriptors xmi:id="_jQT_MH5cEe68YMka0LkFQg" id="-GchlpZk-MSohvEXf-48Ctg" uri="tasks/detallar_los_casos_de_uso_de_negocio.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_cfm9MHqHEe6pYrzmqHi-DA" name="modeladoDeNegocio" guid="_cfm9MHqHEe6pYrzmqHi-DA">
     <methodElementProperty xmi:id="_cf54I3qHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9MXqHEe6pYrzmqHi-DA" name="Content" guid="_cfm9MXqHEe6pYrzmqHi-DA">
@@ -75,6 +77,16 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tx7UIHs4Ee61W_sbNWyaKw" name="stakeholders" guid="_tx7UIHs4Ee61W_sbNWyaKw" presentationName="Stakeholders" briefDescription="Individuos, grupos o entidades que tienen un interés, influencia o participación en un proyecto,">
             <methodElementProperty xmi:id="_yp9aEHs4Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_N1ljAH5cEe68YMka0LkFQg" name="detallar_las_caractersticas_y_roles_del_actor_del_sistema" guid="_N1ljAH5cEe68YMka0LkFQg" presentationName="Detallar las Características y Roles del Actor del Sistema" performedBy="_1M1b8Hs3Ee61W_sbNWyaKw" mandatoryInput="__oBocHs3Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_UUpRIH5cEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XF_XYH5cEe68YMka0LkFQg" name="refinar_la_descripcin_del_actor_del_sistema" guid="_XF_XYH5cEe68YMka0LkFQg" presentationName="Refinar la Descripción del Actor del Sistema" performedBy="_DpPtEHs2Ee61W_sbNWyaKw" mandatoryInput="__oBocHs3Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_baujAH5cEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_eUm6MH5cEe68YMka0LkFQg" name="detallar_los_casos_de_uso_de_negocio" guid="_eUm6MH5cEe68YMka0LkFQg" presentationName="Detallar los Casos de Uso de Negocio" performedBy="_DpPtEHs2Ee61W_sbNWyaKw" mandatoryInput="_henIYHs4Ee61W_sbNWyaKw">
+            <methodElementProperty xmi:id="_jQK1QH5cEe68YMka0LkFQg" name="me_edited" value="true"/>
+            <presentation xmi:id="-GchlpZk-MSohvEXf-48Ctg" href="uma://-GchlpZk-MSohvEXf-48Ctg#-GchlpZk-MSohvEXf-48Ctg"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6kXr4Hs4Ee61W_sbNWyaKw" name="diseniar_procesos_de_negocio" guid="_6kXr4Hs4Ee61W_sbNWyaKw" presentationName="Diseñar procesos de negocio" briefDescription="Involucra la planificación, modelado, creación y optimización de los flujos de trabajo y las operaciones dentro de una organización para lograr eficiencia, efectividad y alineación con los objetivos estratégicos. ">
