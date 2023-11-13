@@ -15,7 +15,7 @@
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyZHqHEe6pYrzmqHi-DA" name="Disciplines" guid="_gnTyZHqHEe6pYrzmqHi-DA">
-          <contentElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" xmi:id="_f56DEH5nEe68YMka0LkFQg" name="analisis_y_disenio" guid="_f56DEH5nEe68YMka0LkFQg" presentationName="analisis y disenio" disciplines="_hog58H5nEe68YMka0LkFQg">
+          <contentElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" xmi:id="_f56DEH5nEe68YMka0LkFQg" name="analisis_y_disenio" guid="_f56DEH5nEe68YMka0LkFQg" presentationName="analisis y disenio" briefDescription="El analisis y disenio cubre todas las tareas de como entender el negocio y como modelar el negocio" disciplines="_hog58H5nEe68YMka0LkFQg">
             <methodElementProperty xmi:id="_hBTwAH5nEe68YMka0LkFQg" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_hog58H5nEe68YMka0LkFQg" name="disenio" guid="_hog58H5nEe68YMka0LkFQg" presentationName="disenio" tasks="_8UbugH5dEe68YMka0LkFQg _jkHaEH5eEe68YMka0LkFQg _E5vXcH5eEe68YMka0LkFQg _3706EH5eEe68YMka0LkFQg _QbabMHs6Ee61W_sbNWyaKw _hl8NgHs6Ee61W_sbNWyaKw _BRjIwH5eEe68YMka0LkFQg _ouWqUH5eEe68YMka0LkFQg _O0AoMH5eEe68YMka0LkFQg">

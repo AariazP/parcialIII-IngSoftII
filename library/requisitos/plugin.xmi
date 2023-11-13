@@ -16,7 +16,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" xmi:id="_qVYDwH5kEe68YMka0LkFQg" name="requisitos" guid="_qVYDwH5kEe68YMka0LkFQg" presentationName="requisitos" disciplines="_IEEhQH5lEe68YMka0LkFQg">
             <methodElementProperty xmi:id="_vxSS0H5kEe68YMka0LkFQg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_IEEhQH5lEe68YMka0LkFQg" name="definicion_de_requisitos" guid="_IEEhQH5lEe68YMka0LkFQg" presentationName="definicion de requisitos" tasks="_q-mrIH5dEe68YMka0LkFQg _wmhV4H5dEe68YMka0LkFQg _IEF5AHs8Ee61W_sbNWyaKw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_IEEhQH5lEe68YMka0LkFQg" name="definicion_de_requisitos" guid="_IEEhQH5lEe68YMka0LkFQg" presentationName="definicion de requisitos" briefDescription="La definicion de requisitos tiene como objetivo establecer lo que se debe realizar el progreso, ademas contiene el por que y para que" tasks="_q-mrIH5dEe68YMka0LkFQg _wmhV4H5dEe68YMka0LkFQg _IEF5AHs8Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_JeBWwH5lEe68YMka0LkFQg" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>

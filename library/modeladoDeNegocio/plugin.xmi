@@ -19,7 +19,7 @@
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cfm9NHqHEe6pYrzmqHi-DA" name="Disciplines" guid="_cfm9NHqHEe6pYrzmqHi-DA">
-          <contentElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" xmi:id="_yuRy8H5lEe68YMka0LkFQg" name="modelado_de_negocio" guid="_yuRy8H5lEe68YMka0LkFQg" presentationName="modelado de negocio" disciplines="_AmQPYH5mEe68YMka0LkFQg">
+          <contentElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" xmi:id="_yuRy8H5lEe68YMka0LkFQg" name="modelado_de_negocio" guid="_yuRy8H5lEe68YMka0LkFQg" presentationName="modelado de negocio" briefDescription="El modelado de negocio permite tener una vision en diferentes aspectos del negocio y modelar sus procesos y entidades" disciplines="_AmQPYH5mEe68YMka0LkFQg">
             <methodElementProperty xmi:id="_0KG3wH5lEe68YMka0LkFQg" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_AmQPYH5mEe68YMka0LkFQg" name="modelo_del_negocio" guid="_AmQPYH5mEe68YMka0LkFQg" presentationName="modelo del negocio" tasks="_N1ljAH5cEe68YMka0LkFQg _eUm6MH5cEe68YMka0LkFQg _c8YIwHs3Ee61W_sbNWyaKw _pVc-QHs3Ee61W_sbNWyaKw _tZv6IHs3Ee61W_sbNWyaKw _8N1MsH5cEe68YMka0LkFQg _B-inEH5dEe68YMka0LkFQg _XF_XYH5cEe68YMka0LkFQg _3YeAQH5cEe68YMka0LkFQg _0s7ewHs1Ee61W_sbNWyaKw _I21W0Hs3Ee61W_sbNWyaKw _6Oo-YHs2Ee61W_sbNWyaKw _t6JG4Hs2Ee61W_sbNWyaKw _ThzpgH5dEe68YMka0LkFQg _M-H6EH5dEe68YMka0LkFQg _YoPX0H5dEe68YMka0LkFQg _PPjhgHs5Ee61W_sbNWyaKw _YXGU0Hs5Ee61W_sbNWyaKw _dB9KEH5dEe68YMka0LkFQg">
