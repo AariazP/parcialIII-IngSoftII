@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_lPVtcHqHEe6pYrzmqHi-DA" guid="_lPVtcHqHEe6pYrzmqHi-DA"/>
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_lPVtcHqHEe6pYrzmqHi-DA" guid="_lPVtcHqHEe6pYrzmqHi-DA">
+    <resourceDescriptors xmi:id="_xzg6UIHHEe6tAKBTdHC13g" id="-ye_soCP1Ybn1Z9o1QizJaA" uri="guidances/guidelines/formularios_en_papel.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_lPL8cHqHEe6pYrzmqHi-DA" name="requisitos" guid="_lPL8cHqHEe6pYrzmqHi-DA">
     <methodElementProperty xmi:id="_lPVtcnqHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8cXqHEe6pYrzmqHi-DA" name="Content" guid="_lPL8cXqHEe6pYrzmqHi-DA">
@@ -48,7 +50,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_REb4IHs8Ee61W_sbNWyaKw" name="revisor_de_requisitos" guid="_REb4IHs8Ee61W_sbNWyaKw" presentationName="Revisor de requisitos" briefDescription="Responsable de analizar, examinar y validar la calidad, claridad, consistencia y viabilidad de los requisitos del proyecto.">
             <methodElementProperty xmi:id="_YiGjkHs8Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_alLOkHs8Ee61W_sbNWyaKw" name="formularios_en_papel" guid="_alLOkHs8Ee61W_sbNWyaKw" presentationName="Formularios en papel" briefDescription="Documentos impresos preestructurados diseñados para recopilar información específica de manera escrita. ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_alLOkHs8Ee61W_sbNWyaKw" name="formularios_en_papel" guid="_alLOkHs8Ee61W_sbNWyaKw" presentationName="Formularios en papel" briefDescription="Documentos impresos preestructurados diseñados para recopilar información específica de manera escrita. " guidelines="_4JTt0IG-Ee6oP_ocqmhEjg">
             <methodElementProperty xmi:id="_l0LdoHs8Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_q-mrIH5dEe68YMka0LkFQg" name="definir_requisitos" guid="_q-mrIH5dEe68YMka0LkFQg" presentationName="Definir requisitos" performedBy="_REb4IHs8Ee61W_sbNWyaKw" mandatoryInput="_alLOkHs8Ee61W_sbNWyaKw">
@@ -56,6 +58,10 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wmhV4H5dEe68YMka0LkFQg" name="detallar_requisitos" guid="_wmhV4H5dEe68YMka0LkFQg" presentationName="Detallar requisitos" performedBy="_REb4IHs8Ee61W_sbNWyaKw" mandatoryInput="_alLOkHs8Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_0XWjMH5dEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_4JTt0IG-Ee6oP_ocqmhEjg" name="formularios_en_papel" guid="_4JTt0IG-Ee6oP_ocqmhEjg" presentationName="formularios en papel" briefDescription="Estos son los formularios en papel">
+            <methodElementProperty xmi:id="_C9AusIHEEe6oP_ocqmhEjg" name="me_edited" value="true"/>
+            <presentation xmi:id="-ye_soCP1Ybn1Z9o1QizJaA" href="uma://-ye_soCP1Ybn1Z9o1QizJaA#-ye_soCP1Ybn1Z9o1QizJaA"/>
           </contentElements>
         </childPackages>
       </childPackages>

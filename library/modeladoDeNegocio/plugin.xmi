@@ -2,6 +2,12 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_cf54IXqHEe6pYrzmqHi-DA" guid="_cf54IXqHEe6pYrzmqHi-DA">
     <resourceDescriptors xmi:id="_jQT_MH5cEe68YMka0LkFQg" id="-GchlpZk-MSohvEXf-48Ctg" uri="tasks/detallar_los_casos_de_uso_de_negocio.xmi"/>
+    <resourceDescriptors xmi:id="_SicOoIHIEe6tAKBTdHC13g" id="-CyIYA6z4B5E_yDW2QO6HLA" uri="guidances/guidelines/reglas_de_negocio.xmi"/>
+    <resourceDescriptors xmi:id="_BF30oYHJEe6tAKBTdHC13g" id="-YVRXuLGqpLtetcm3N6uw-g" uri="guidances/guidelines/casos_de_uso_del_negocio.xmi"/>
+    <resourceDescriptors xmi:id="_WBO0QIHJEe6tAKBTdHC13g" id="-5GmG0sCJSBE1Wg3Kxzly6Q" uri="guidances/guidelines/actor_del_sistema.xmi"/>
+    <resourceDescriptors xmi:id="_hjNCoYHJEe6tAKBTdHC13g" id="-pW0UMG4midyqv6qlDbu28Q" uri="guidances/guidelines/stakeholder.xmi"/>
+    <resourceDescriptors xmi:id="_-R_F0oHKEe6_uKhH88PieA" id="-MtpOl8KqTCeL4zKFg6jnYA" uri="guidances/guidelines/diagrama_de_actividad.xmi"/>
+    <resourceDescriptors xmi:id="_C2E8EIHLEe6_uKhH88PieA" id="-Eb56WmDwq_M7i-5ca3YhZg" uri="guidances/guidelines/rol_de_negocio.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_cfm9MHqHEe6pYrzmqHi-DA" name="modeladoDeNegocio" guid="_cfm9MHqHEe6pYrzmqHi-DA">
     <methodElementProperty xmi:id="_cf54I3qHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
@@ -53,7 +59,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_DpPtEHs2Ee61W_sbNWyaKw" name="analista_de_procesos_de_negocio" guid="_DpPtEHs2Ee61W_sbNWyaKw" presentationName="Analista de procesos de negocio" briefDescription="El rol de Analista de Procesos de Negocio implica la responsabilidad de examinar, evaluar y mejorar los diferentes aspectos operativos de una empresa. " responsibleFor="_LTNvIHs2Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_I9cKkHs2Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_LTNvIHs2Ee61W_sbNWyaKw" name="reglas_de_negocio" guid="_LTNvIHs2Ee61W_sbNWyaKw" presentationName="Reglas de negocio" briefDescription="Las reglas de negocio son declaraciones o directrices que establecen las políticas, restricciones o condiciones que rigen el comportamiento, las decisiones y las operaciones dentro de una organización. ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_LTNvIHs2Ee61W_sbNWyaKw" name="reglas_de_negocio" guid="_LTNvIHs2Ee61W_sbNWyaKw" presentationName="Reglas de negocio" briefDescription="Las reglas de negocio son declaraciones o directrices que establecen las políticas, restricciones o condiciones que rigen el comportamiento, las decisiones y las operaciones dentro de una organización. " guidelines="_DV_SkIHIEe6tAKBTdHC13g">
             <methodElementProperty xmi:id="_SakMUHs2Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_t6JG4Hs2Ee61W_sbNWyaKw" name="validar_reglas_de_negocio" guid="_t6JG4Hs2Ee61W_sbNWyaKw" presentationName="Validar reglas de negocio" briefDescription="Proceso exhaustivo para confirmar la precisión, la coherencia y la eficacia de las reglas establecidas dentro de una organización. " performedBy="_DpPtEHs2Ee61W_sbNWyaKw" mandatoryInput="_LTNvIHs2Ee61W_sbNWyaKw">
@@ -64,6 +70,10 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_I21W0Hs3Ee61W_sbNWyaKw" name="detallar_y_validar_objetivos" guid="_I21W0Hs3Ee61W_sbNWyaKw" presentationName="Detallar y validar objetivos" briefDescription="Proceso fundamental en la gestión estratégica de una organización, que se enfoca en definir de manera específica y precisa los objetivos planteados y garantizar que estos sean coherentes, alcanzables y alineados con la dirección estratégica de la empresa." performedBy="_DpPtEHs2Ee61W_sbNWyaKw" mandatoryInput="_LTNvIHs2Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_PaWHIHs3Ee61W_sbNWyaKw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_DV_SkIHIEe6tAKBTdHC13g" name="reglas_de_negocio" guid="_DV_SkIHIEe6tAKBTdHC13g" presentationName="reglas de negocio" briefDescription="Las reglas de negocio definen los lineamientos de la empresa">
+            <methodElementProperty xmi:id="_SiTEsIHIEe6tAKBTdHC13g" name="me_edited" value="true"/>
+            <presentation xmi:id="-CyIYA6z4B5E_yDW2QO6HLA" href="uma://-CyIYA6z4B5E_yDW2QO6HLA#-CyIYA6z4B5E_yDW2QO6HLA"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_o798sHs2Ee61W_sbNWyaKw" name="detallar_el_negocio_actual" guid="_o798sHs2Ee61W_sbNWyaKw" presentationName="Detallar el negocio actual">
@@ -81,13 +91,13 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_1M1b8Hs3Ee61W_sbNWyaKw" name="analista_de_procesos_de_negocio" guid="_1M1b8Hs3Ee61W_sbNWyaKw" presentationName="Analista de procesos de negocio" briefDescription="implica la responsabilidad de examinar, evaluar y mejorar los diferentes aspectos operativos de una empresa. ">
             <methodElementProperty xmi:id="_3AFiQHs3Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__oBocHs3Ee61W_sbNWyaKw" name="actor_del_sistema" guid="__oBocHs3Ee61W_sbNWyaKw" presentationName="Actor del sistema" briefDescription="Cualquier entidad externa que interactúa con el sistema">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__oBocHs3Ee61W_sbNWyaKw" name="actor_del_sistema" guid="__oBocHs3Ee61W_sbNWyaKw" presentationName="Actor del sistema" briefDescription="Cualquier entidad externa que interactúa con el sistema" guidelines="_e7At0IHIEe6tAKBTdHC13g">
             <methodElementProperty xmi:id="_Fs9mYHs4Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_henIYHs4Ee61W_sbNWyaKw" name="casos_de_uso_del_negocio" guid="_henIYHs4Ee61W_sbNWyaKw" presentationName="Casos de uso del negocio" briefDescription="Representaciones que describen cómo interactúan los actores (ya sean personas, sistemas o entidades externas) con un sistema o proceso de negocio particular. ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_henIYHs4Ee61W_sbNWyaKw" name="casos_de_uso_del_negocio" guid="_henIYHs4Ee61W_sbNWyaKw" presentationName="Casos de uso del negocio" briefDescription="Representaciones que describen cómo interactúan los actores (ya sean personas, sistemas o entidades externas) con un sistema o proceso de negocio particular. " guidelines="_g8IRAIHIEe6tAKBTdHC13g">
             <methodElementProperty xmi:id="_pJV_cHs4Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tx7UIHs4Ee61W_sbNWyaKw" name="stakeholders" guid="_tx7UIHs4Ee61W_sbNWyaKw" presentationName="Stakeholders" briefDescription="Individuos, grupos o entidades que tienen un interés, influencia o participación en un proyecto,">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tx7UIHs4Ee61W_sbNWyaKw" name="stakeholders" guid="_tx7UIHs4Ee61W_sbNWyaKw" presentationName="Stakeholders" briefDescription="Individuos, grupos o entidades que tienen un interés, influencia o participación en un proyecto," guidelines="_ck6ZIIHIEe6tAKBTdHC13g">
             <methodElementProperty xmi:id="_yp9aEHs4Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_N1ljAH5cEe68YMka0LkFQg" name="detallar_las_caractersticas_y_roles_del_actor_del_sistema" guid="_N1ljAH5cEe68YMka0LkFQg" presentationName="Detallar las Características y Roles del Actor del Sistema" performedBy="_1M1b8Hs3Ee61W_sbNWyaKw" mandatoryInput="__oBocHs3Ee61W_sbNWyaKw">
@@ -108,6 +118,18 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_B-inEH5dEe68YMka0LkFQg" name="priorizar_y_gestionar_las_expectativas_de_los_stakeholders" guid="_B-inEH5dEe68YMka0LkFQg" presentationName="Priorizar y Gestionar las Expectativas de los Stakeholders" performedBy="_DpPtEHs2Ee61W_sbNWyaKw" mandatoryInput="_tx7UIHs4Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_F2YbUH5dEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_ck6ZIIHIEe6tAKBTdHC13g" name="stakeholder" guid="_ck6ZIIHIEe6tAKBTdHC13g" presentationName="stakeholder">
+            <methodElementProperty xmi:id="_dr5PUIHIEe6tAKBTdHC13g" name="me_edited" value="true"/>
+            <presentation xmi:id="-pW0UMG4midyqv6qlDbu28Q" href="uma://-pW0UMG4midyqv6qlDbu28Q#-pW0UMG4midyqv6qlDbu28Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_e7At0IHIEe6tAKBTdHC13g" name="actor_del_sistema" guid="_e7At0IHIEe6tAKBTdHC13g" presentationName="actor del sistema">
+            <methodElementProperty xmi:id="_f4lwYIHIEe6tAKBTdHC13g" name="me_edited" value="true"/>
+            <presentation xmi:id="-5GmG0sCJSBE1Wg3Kxzly6Q" href="uma://-5GmG0sCJSBE1Wg3Kxzly6Q#-5GmG0sCJSBE1Wg3Kxzly6Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_g8IRAIHIEe6tAKBTdHC13g" name="casos_de_uso_del_negocio" guid="_g8IRAIHIEe6tAKBTdHC13g" presentationName="casos de uso del negocio">
+            <methodElementProperty xmi:id="_iIyRYIHIEe6tAKBTdHC13g" name="me_edited" value="true"/>
+            <presentation xmi:id="-YVRXuLGqpLtetcm3N6uw-g" href="uma://-YVRXuLGqpLtetcm3N6uw-g#-YVRXuLGqpLtetcm3N6uw-g"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6kXr4Hs4Ee61W_sbNWyaKw" name="diseniar_procesos_de_negocio" guid="_6kXr4Hs4Ee61W_sbNWyaKw" presentationName="Diseñar procesos de negocio" briefDescription="Involucra la planificación, modelado, creación y optimización de los flujos de trabajo y las operaciones dentro de una organización para lograr eficiencia, efectividad y alineación con los objetivos estratégicos. ">
@@ -139,6 +161,14 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_dB9KEH5dEe68YMka0LkFQg" name="validar_y_verificar_el_diagrama" guid="_dB9KEH5dEe68YMka0LkFQg" presentationName="Validar y Verificar el Diagrama" performedBy="_dDE7wHs5Ee61W_sbNWyaKw" mandatoryInput="_rEPJYHs5Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_gCT8sH5dEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_vv9m0IHKEe6_uKhH88PieA" name="diagrama_de_actividad" guid="_vv9m0IHKEe6_uKhH88PieA" presentationName="diagrama de actividad">
+            <methodElementProperty xmi:id="_-R_F0IHKEe6_uKhH88PieA" name="me_edited" value="true"/>
+            <presentation xmi:id="-MtpOl8KqTCeL4zKFg6jnYA" href="uma://-MtpOl8KqTCeL4zKFg6jnYA#-MtpOl8KqTCeL4zKFg6jnYA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="__biu4IHKEe6_uKhH88PieA" name="rol_de_negocio" guid="__biu4IHKEe6_uKhH88PieA" presentationName="rol de negocio">
+            <methodElementProperty xmi:id="_ATlxMIHLEe6_uKhH88PieA" name="me_edited" value="true"/>
+            <presentation xmi:id="-Eb56WmDwq_M7i-5ca3YhZg" href="uma://-Eb56WmDwq_M7i-5ca3YhZg#-Eb56WmDwq_M7i-5ca3YhZg"/>
           </contentElements>
         </childPackages>
       </childPackages>

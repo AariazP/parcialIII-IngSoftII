@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_gneKcHqHEe6pYrzmqHi-DA" guid="_gneKcHqHEe6pYrzmqHi-DA"/>
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_gneKcHqHEe6pYrzmqHi-DA" guid="_gneKcHqHEe6pYrzmqHi-DA">
+    <resourceDescriptors xmi:id="_XOomEYHKEe6_uKhH88PieA" id="-1kfDCQgtx0ygeD2ChpOyCQ" uri="guidances/guidelines/diagrama_de_clases.xmi"/>
+    <resourceDescriptors xmi:id="_cPlXcIHKEe6_uKhH88PieA" id="-xwEEC0zvr0hTVTRVlbgCGQ" uri="guidances/guidelines/diagrama_de_secuencia.xmi"/>
+    <resourceDescriptors xmi:id="_hvy3soHKEe6_uKhH88PieA" id="-_3D1kcOrswGeEi1DI1_4Bw" uri="guidances/guidelines/interfaces_de_usuario.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_gnTyYHqHEe6pYrzmqHi-DA" name="analisisDisenio" guid="_gnTyYHqHEe6pYrzmqHi-DA">
     <methodElementProperty xmi:id="_gneKcnqHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyYXqHEe6pYrzmqHi-DA" name="Content" guid="_gnTyYXqHEe6pYrzmqHi-DA">
@@ -31,8 +35,11 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyaHqHEe6pYrzmqHi-DA" name="StandardCategories" guid="_gnTyaHqHEe6pYrzmqHi-DA"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyaXqHEe6pYrzmqHi-DA" name="CustomCategories" guid="_gnTyaXqHEe6pYrzmqHi-DA">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyanqHEe6pYrzmqHi-DA" name="Hidden" guid="_gnTyanqHEe6pYrzmqHi-DA">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_gnTya3qHEe6pYrzmqHi-DA" name="Custom Categories" guid="_gnTya3qHEe6pYrzmqHi-DA"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_gnTya3qHEe6pYrzmqHi-DA" name="Custom Categories" guid="_gnTya3qHEe6pYrzmqHi-DA" categorizedElements="_1o-asH8vEe6TS5SCGM9NHA"/>
           </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_1o-asH8vEe6TS5SCGM9NHA" name="analisis_y_disenio" guid="_1o-asH8vEe6TS5SCGM9NHA" presentationName="analisis y disenio" categorizedElements="_mtkvQH5nEe68YMka0LkFQg _hog58H5nEe68YMka0LkFQg _CCo_wH5kEe68YMka0LkFQg">
+            <methodElementProperty xmi:id="_NdmGcH8wEe6TS5SCGM9NHA" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTybHqHEe6pYrzmqHi-DA" name="CoreContent" guid="_gnTybHqHEe6pYrzmqHi-DA">
@@ -45,13 +52,13 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_hl8NgHs6Ee61W_sbNWyaKw" name="diseniar_diagrama_de_sequencia" guid="_hl8NgHs6Ee61W_sbNWyaKw" presentationName="Diseniar diagrama de sequencia" briefDescription=" Representación visual de la interacción entre los objetos o componentes dentro de un sistema." performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_u1pJAHs6Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_mYf9kHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_o6QIoHs6Ee61W_sbNWyaKw" name="diagrama_de_clases" guid="_o6QIoHs6Ee61W_sbNWyaKw" presentationName="diagrama de clases" briefDescription="representación visual estática de la estructura y las relaciones entre las clases que forman parte de un sistema.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_o6QIoHs6Ee61W_sbNWyaKw" name="diagrama_de_clases" guid="_o6QIoHs6Ee61W_sbNWyaKw" presentationName="diagrama de clases" briefDescription="representación visual estática de la estructura y las relaciones entre las clases que forman parte de un sistema." guidelines="_RMdBMIHKEe6_uKhH88PieA">
             <methodElementProperty xmi:id="_zn9ogHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_s71uwHs6Ee61W_sbNWyaKw" name="interface_de_usuario" guid="_s71uwHs6Ee61W_sbNWyaKw" presentationName="interface de usuario" briefDescription="Medio a través del cual un usuario interactúa con un sistema informático, aplicaciones, software o dispositivos electrónicos.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_s71uwHs6Ee61W_sbNWyaKw" name="interface_de_usuario" guid="_s71uwHs6Ee61W_sbNWyaKw" presentationName="interface de usuario" briefDescription="Medio a través del cual un usuario interactúa con un sistema informático, aplicaciones, software o dispositivos electrónicos." guidelines="_dv4FgIHKEe6_uKhH88PieA">
             <methodElementProperty xmi:id="_6PsxgHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_u1pJAHs6Ee61W_sbNWyaKw" name="diagrama_de_sequencia" guid="_u1pJAHs6Ee61W_sbNWyaKw" presentationName="diagrama de sequencia" briefDescription="Representa visualmente la secuencia de interacciones entre los objetos en un escenario específico">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_u1pJAHs6Ee61W_sbNWyaKw" name="diagrama_de_sequencia" guid="_u1pJAHs6Ee61W_sbNWyaKw" presentationName="diagrama de sequencia" briefDescription="Representa visualmente la secuencia de interacciones entre los objetos en un escenario específico" guidelines="_Ymyr0IHKEe6_uKhH88PieA">
             <methodElementProperty xmi:id="_9muXsHs6Ee61W_sbNWyaKw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Uey7oHs7Ee61W_sbNWyaKw" name="diseniador" guid="_Uey7oHs7Ee61W_sbNWyaKw" presentationName="diseniador" briefDescription="profesional que se especializa en la concepción, planificación, y creación de la estructura, interacción del software">
@@ -77,6 +84,18 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3706EH5eEe68YMka0LkFQg" name="disear_interfaces_de_usuario" guid="_3706EH5eEe68YMka0LkFQg" presentationName="Diseñar interfaces de usuario" performedBy="_Uey7oHs7Ee61W_sbNWyaKw" mandatoryInput="_s71uwHs6Ee61W_sbNWyaKw">
             <methodElementProperty xmi:id="_6VAX8H5eEe68YMka0LkFQg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_RMdBMIHKEe6_uKhH88PieA" name="diagrama_de_clases" guid="_RMdBMIHKEe6_uKhH88PieA" presentationName="diagrama de clases" briefDescription="Define las entidades del negocio">
+            <methodElementProperty xmi:id="_Ufv98IHKEe6_uKhH88PieA" name="me_edited" value="true"/>
+            <presentation xmi:id="-1kfDCQgtx0ygeD2ChpOyCQ" href="uma://-1kfDCQgtx0ygeD2ChpOyCQ#-1kfDCQgtx0ygeD2ChpOyCQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_Ymyr0IHKEe6_uKhH88PieA" name="diagrama_de_secuencia" guid="_Ymyr0IHKEe6_uKhH88PieA" presentationName="diagrama de secuencia">
+            <methodElementProperty xmi:id="_Z3b0UIHKEe6_uKhH88PieA" name="me_edited" value="true"/>
+            <presentation xmi:id="-xwEEC0zvr0hTVTRVlbgCGQ" href="uma://-xwEEC0zvr0hTVTRVlbgCGQ#-xwEEC0zvr0hTVTRVlbgCGQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_dv4FgIHKEe6_uKhH88PieA" name="interfaces_de_usuario" guid="_dv4FgIHKEe6_uKhH88PieA" presentationName="interfaces de usuario">
+            <methodElementProperty xmi:id="_hvy3sIHKEe6_uKhH88PieA" name="me_edited" value="true"/>
+            <presentation xmi:id="-_3D1kcOrswGeEi1DI1_4Bw" href="uma://-_3D1kcOrswGeEi1DI1_4Bw#-_3D1kcOrswGeEi1DI1_4Bw"/>
           </contentElements>
         </childPackages>
       </childPackages>
