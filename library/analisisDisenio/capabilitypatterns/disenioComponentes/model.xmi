@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_t8Xr0YHWEe6tSf45z97pWw" guid="_t8Xr0YHWEe6tSf45z97pWw">
+    <resourceDescriptors xmi:id="_t8Xr0oHWEe6tSf45z97pWw" id="-ke084X6rrwao_uGwYjdGqg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_t2RD0IHWEe6tSf45z97pWw" name="disenioComponentes" guid="_t2RD0IHWEe6tSf45z97pWw">
+    <methodElementProperty xmi:id="_t2aNwIHWEe6tSf45z97pWw" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_45eSkIHWEe6tSf45z97pWw" name="me_edited" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_t2RD0YHWEe6tSf45z97pWw" name="disenioComponentes" guid="_t2RD0YHWEe6tSf45z97pWw" presentationName="disenioComponentes" briefDescription="Por medio del disenio se identifica el flujo para identificar cuales son los componentes principales y ademas se define la estructura que van a tener">
+      <presentation xmi:id="-ke084X6rrwao_uGwYjdGqg" href="uma://-ke084X6rrwao_uGwYjdGqg#-ke084X6rrwao_uGwYjdGqg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

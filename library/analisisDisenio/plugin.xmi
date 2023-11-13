@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_gneKcHqHEe6pYrzmqHi-DA" guid="_gneKcHqHEe6pYrzmqHi-DA">
+    <subManagers xmi:id="_t8Xr0YHWEe6tSf45z97pWw" href="uma://_t2RD0IHWEe6tSf45z97pWw#_t8Xr0YHWEe6tSf45z97pWw"/>
     <resourceDescriptors xmi:id="_XOomEYHKEe6_uKhH88PieA" id="-1kfDCQgtx0ygeD2ChpOyCQ" uri="guidances/guidelines/diagrama_de_clases.xmi"/>
     <resourceDescriptors xmi:id="_cPlXcIHKEe6_uKhH88PieA" id="-xwEEC0zvr0hTVTRVlbgCGQ" uri="guidances/guidelines/diagrama_de_secuencia.xmi"/>
     <resourceDescriptors xmi:id="_hvy3soHKEe6_uKhH88PieA" id="-_3D1kcOrswGeEi1DI1_4Bw" uri="guidances/guidelines/interfaces_de_usuario.xmi"/>
+    <resourceDescriptors xmi:id="_t7VKAIHWEe6tSf45z97pWw" id="_t2RD0IHWEe6tSf45z97pWw" uri="capabilitypatterns/disenioComponentes/model.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_gnTyYHqHEe6pYrzmqHi-DA" name="analisisDisenio" guid="_gnTyYHqHEe6pYrzmqHi-DA">
     <methodElementProperty xmi:id="_gneKcnqHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
@@ -99,7 +101,9 @@
           </contentElements>
         </childPackages>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gnTybXqHEe6pYrzmqHi-DA" name="CapabilityPatterns" guid="_gnTybXqHEe6pYrzmqHi-DA"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gnTybXqHEe6pYrzmqHi-DA" name="CapabilityPatterns" guid="_gnTybXqHEe6pYrzmqHi-DA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_t2RD0IHWEe6tSf45z97pWw" href="uma://_t2RD0IHWEe6tSf45z97pWw#_t2RD0IHWEe6tSf45z97pWw"/>
+      </childPackages>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gnTybnqHEe6pYrzmqHi-DA" name="DeliveryProcesses" guid="_gnTybnqHEe6pYrzmqHi-DA"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gnTyb3qHEe6pYrzmqHi-DA" name="ProcessContributions" guid="_gnTyb3qHEe6pYrzmqHi-DA"/>
