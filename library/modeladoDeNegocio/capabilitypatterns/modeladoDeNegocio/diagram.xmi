@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <uml:Activity xmi:id="_UwTAwIHdEe6SyvqpRUssfw" name="modeladoDeNegocio">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UwTAwYHdEe6SyvqpRUssfw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UwTAwoHdEe6SyvqpRUssfw" key="uri" value="uma://_DXb3gIHdEe6SyvqpRUssfw#_DXb3gYHdEe6SyvqpRUssfw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UwTAw4HdEe6SyvqpRUssfw" key="type" value="Activity"/>
+    </eAnnotations>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MM6N8IHeEe6SyvqpRUssfw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NS5loIHeEe6SyvqpRUssfw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OGWb0IHeEe6SyvqpRUssfw"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_UwTAxIHdEe6SyvqpRUssfw" type="AD" element="_UwTAwIHdEe6SyvqpRUssfw" name="modeladoDeNegocio" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_UwTAxYHdEe6SyvqpRUssfw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_UwTAxoHdEe6SyvqpRUssfw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_UwTAx4HdEe6SyvqpRUssfw"/>
+  </notation:Diagram>
+</xmi:XMI>

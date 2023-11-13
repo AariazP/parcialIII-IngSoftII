@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_IYbsMYHdEe6SyvqpRUssfw" guid="_IYbsMYHdEe6SyvqpRUssfw">
+    <resourceDescriptors xmi:id="_IYbsMoHdEe6SyvqpRUssfw" id="-G252SBlg-3C2OMlhJMB-sQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_IXiUUIHdEe6SyvqpRUssfw" name="analisisYDisenio" guid="_IXiUUIHdEe6SyvqpRUssfw">
+    <methodElementProperty xmi:id="_IXiUUoHdEe6SyvqpRUssfw" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_LoJJcIHdEe6SyvqpRUssfw" name="me_edited" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_IXiUUYHdEe6SyvqpRUssfw" name="analisisYDisenio" guid="_IXiUUYHdEe6SyvqpRUssfw" presentationName="analisisYDisenio" briefDescription="Este es el workflow de la disciplina analisis y disenio">
+      <presentation xmi:id="-G252SBlg-3C2OMlhJMB-sQ" href="uma://-G252SBlg-3C2OMlhJMB-sQ#-G252SBlg-3C2OMlhJMB-sQ"/>
+      <defaultContext href="uma://_RkNmoHqHEe6pYrzmqHi-DA#_ZJYtQH8yEe6TS5SCGM9NHA"/>
+      <validContext href="uma://_RkNmoHqHEe6pYrzmqHi-DA#_ZJYtQH8yEe6TS5SCGM9NHA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

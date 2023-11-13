@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__iCvwYHbEe6SyvqpRUssfw" guid="__iCvwYHbEe6SyvqpRUssfw">
+    <resourceDescriptors xmi:id="__iCvwoHbEe6SyvqpRUssfw" id="-ZDLkE_iJ1qiehgDrGgNy0A" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="__hTI4IHbEe6SyvqpRUssfw" name="diseniarProcesosDelNegocioActual" guid="__hTI4IHbEe6SyvqpRUssfw">
+    <methodElementProperty xmi:id="__hTI4oHbEe6SyvqpRUssfw" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_qE74gIHcEe6SyvqpRUssfw" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_eAnjUYHiEe6SyvqpRUssfw" name="identificar_roles_de_negocio" guid="_eAnjUYHiEe6SyvqpRUssfw" presentationName="Identificar roles de negocio" briefDescription="reconocer y definir las funciones, responsabilidades y posiciones dentro de una organización o proyecto que son críticas para el desempeño de las actividades empresariales. " superActivities="__hTI4YHbEe6SyvqpRUssfw" mandatoryInput="_xeIr9IHiEe6SyvqpRUssfw" performedPrimarilyBy="_xeIr8YHiEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_xeSc8IHiEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_PPjhgHs5Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_gRdkkYHiEe6SyvqpRUssfw" name="identificar_trabajadores_comerciales_y_entidades" guid="_gRdkkYHiEe6SyvqpRUssfw" presentationName="Identificar trabajadores comerciales y entidades" briefDescription="reconocer y definir tanto a los individuos que forman parte del entorno comercial de una empresa como a las entidades externas con las que interactúa la organización en el desarrollo de sus actividades comerciales." superActivities="__hTI4YHbEe6SyvqpRUssfw" linkToPredecessor="_rXRbYYHiEe6SyvqpRUssfw" mandatoryInput="_zLkeIYHiEe6SyvqpRUssfw" performedPrimarilyBy="_xeIr8YHiEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_zLkeI4HiEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_YXGU0Hs5Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_i4yzMYHiEe6SyvqpRUssfw" name="definir_relaciones_y_dependencias_entre_los_roles_de_negocio" guid="_i4yzMYHiEe6SyvqpRUssfw" presentationName="Definir Relaciones y Dependencias entre los Roles de Negocio" superActivities="__hTI4YHbEe6SyvqpRUssfw" linkToPredecessor="_r_EbMYHiEe6SyvqpRUssfw" mandatoryInput="_xeIr9IHiEe6SyvqpRUssfw" performedPrimarilyBy="_xeIr8YHiEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_1i9MQIHiEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_M-H6EH5dEe68YMka0LkFQg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_kzpWUYHiEe6SyvqpRUssfw" name="capacitacin_y_desarrollo_de_competencias" guid="_kzpWUYHiEe6SyvqpRUssfw" presentationName="Capacitación y Desarrollo de Competencias" superActivities="__hTI4YHbEe6SyvqpRUssfw" linkToPredecessor="_snKV8YHiEe6SyvqpRUssfw" mandatoryInput="_xeIr9IHiEe6SyvqpRUssfw" performedPrimarilyBy="_xeIr8YHiEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_2ukq0IHiEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_ThzpgH5dEe68YMka0LkFQg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nFpOIYHiEe6SyvqpRUssfw" name="identificar_actividades_clave" guid="_nFpOIYHiEe6SyvqpRUssfw" presentationName="Identificar Actividades Clave" superActivities="__hTI4YHbEe6SyvqpRUssfw" linkToPredecessor="_tT3D4YHiEe6SyvqpRUssfw" mandatoryInput="_zLkeIYHiEe6SyvqpRUssfw" performedPrimarilyBy="_xeIr8YHiEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_3xDbgIHiEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_YoPX0H5dEe68YMka0LkFQg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_oBvC8YHiEe6SyvqpRUssfw" name="validar_y_verificar_el_diagrama" guid="_oBvC8YHiEe6SyvqpRUssfw" presentationName="Validar y Verificar el Diagrama" superActivities="__hTI4YHbEe6SyvqpRUssfw" linkToPredecessor="_t5m1QYHiEe6SyvqpRUssfw" mandatoryInput="_zLkeIYHiEe6SyvqpRUssfw" performedPrimarilyBy="_xeIr8YHiEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_5DAyoIHiEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_dB9KEH5dEe68YMka0LkFQg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_rXRbYYHiEe6SyvqpRUssfw" guid="_rXRbYYHiEe6SyvqpRUssfw" pred="_eAnjUYHiEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_r_EbMYHiEe6SyvqpRUssfw" guid="_r_EbMYHiEe6SyvqpRUssfw" pred="_gRdkkYHiEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_snKV8YHiEe6SyvqpRUssfw" guid="_snKV8YHiEe6SyvqpRUssfw" pred="_i4yzMYHiEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_tT3D4YHiEe6SyvqpRUssfw" guid="_tT3D4YHiEe6SyvqpRUssfw" pred="_kzpWUYHiEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t5m1QYHiEe6SyvqpRUssfw" guid="_t5m1QYHiEe6SyvqpRUssfw" pred="_nFpOIYHiEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_xeIr8YHiEe6SyvqpRUssfw" name="diseniador_de_negocios" guid="_xeIr8YHiEe6SyvqpRUssfw" presentationName="Diseniador de negocios" briefDescription="profesional encargado de estructurar estratégicamente los procesos, las operaciones y los modelos de negocio de una empresa para optimizar su funcionamiento y su capacidad de generar valor." isPlanned="false" superActivities="__hTI4YHbEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_xeIr8oHiEe6SyvqpRUssfw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_xeSc8YHiEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_dDE7wHs5Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_xeIr9IHiEe6SyvqpRUssfw" name="rol_de_negocio" guid="_xeIr9IHiEe6SyvqpRUssfw" presentationName="Rol de negocio" briefDescription="función o posición específica que desempeña un individuo, un grupo o un conjunto de responsabilidades dentro del contexto de una empresa o proyecto." isPlanned="false" superActivities="__hTI4YHbEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_xeIr9YHiEe6SyvqpRUssfw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_xeSc8oHiEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_kRNWYHs5Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_zLkeIYHiEe6SyvqpRUssfw" name="diagrama_de_actividad" guid="_zLkeIYHiEe6SyvqpRUssfw" presentationName="Diagrama de actividad" briefDescription="Representación visual que ilustra el flujo de actividades, acciones y decisiones que ocurren en un sistema, proceso o procedimiento. " isPlanned="false" superActivities="__hTI4YHbEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_zLkeIoHiEe6SyvqpRUssfw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_zLkeJIHiEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_rEPJYHs5Ee61W_sbNWyaKw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="__hTI4YHbEe6SyvqpRUssfw" name="diseniarProcesosDelNegocioActual" guid="__hTI4YHbEe6SyvqpRUssfw" presentationName="diseniarEstadoDelNegocioActual" briefDescription="Define el flujo para diseniar el estado del negocio" breakdownElements="_eAnjUYHiEe6SyvqpRUssfw _gRdkkYHiEe6SyvqpRUssfw _i4yzMYHiEe6SyvqpRUssfw _kzpWUYHiEe6SyvqpRUssfw _nFpOIYHiEe6SyvqpRUssfw _oBvC8YHiEe6SyvqpRUssfw _xeIr8YHiEe6SyvqpRUssfw _xeIr9IHiEe6SyvqpRUssfw _zLkeIYHiEe6SyvqpRUssfw">
+      <presentation xmi:id="-ZDLkE_iJ1qiehgDrGgNy0A" href="uma://-ZDLkE_iJ1qiehgDrGgNy0A#-ZDLkE_iJ1qiehgDrGgNy0A"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

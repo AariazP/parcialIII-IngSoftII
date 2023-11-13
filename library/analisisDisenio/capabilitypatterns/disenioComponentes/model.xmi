@@ -6,7 +6,75 @@
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_t2RD0IHWEe6tSf45z97pWw" name="disenioComponentes" guid="_t2RD0IHWEe6tSf45z97pWw">
     <methodElementProperty xmi:id="_t2aNwIHWEe6tSf45z97pWw" name="pkg_loadCheck" value="true"/>
     <methodElementProperty xmi:id="_45eSkIHWEe6tSf45z97pWw" name="me_edited" value="true"/>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_t2RD0YHWEe6tSf45z97pWw" name="disenioComponentes" guid="_t2RD0YHWEe6tSf45z97pWw" presentationName="disenioComponentes" briefDescription="Por medio del disenio se identifica el flujo para identificar cuales son los componentes principales y ademas se define la estructura que van a tener">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_AnLusYHjEe6SyvqpRUssfw" name="diseniar_clases" guid="_AnLusYHjEe6SyvqpRUssfw" presentationName="Diseniar clases" briefDescription="Implica la conceptualización, definición y planificación de las clases que formarán parte de un sistema orientado a objetos. " superActivities="_t2RD0YHWEe6tSf45z97pWw" mandatoryInput="_dSXgxIHjEe6SyvqpRUssfw" performedPrimarilyBy="_dSXgwYHjEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_dSXgxoHjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_QbabMHs6Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_EYEmYIHjEe6SyvqpRUssfw" name="disear_interfaces_de_usuario" guid="_EYEmYIHjEe6SyvqpRUssfw" presentationName="Diseniar interfaces de usuario" superActivities="_t2RD0YHWEe6tSf45z97pWw" linkToPredecessor="_TvNvgYHjEe6SyvqpRUssfw" isSynchronizedWithSource="false" mandatoryInput="_fm02sYHjEe6SyvqpRUssfw" performedPrimarilyBy="_dSXgwYHjEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_fm02s4HjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <methodElementProperty xmi:id="_geSqMIHjEe6SyvqpRUssfw" name="descriptor_customization" value="2"/>
+      <Task href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_3706EH5eEe68YMka0LkFQg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_FdevQYHjEe6SyvqpRUssfw" name="diseniar_diagrama_de_sequencia" guid="_FdevQYHjEe6SyvqpRUssfw" presentationName="Diseniar diagrama de sequencia" briefDescription=" Representación visual de la interacción entre los objetos o componentes dentro de un sistema." superActivities="_t2RD0YHWEe6tSf45z97pWw" linkToPredecessor="_UbowoYHjEe6SyvqpRUssfw" isSynchronizedWithSource="false" mandatoryInput="_kRIpsYHjEe6SyvqpRUssfw" performedPrimarilyBy="_dSXgwYHjEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_kRIps4HjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_hl8NgHs6Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_G5rAcYHjEe6SyvqpRUssfw" name="detallar_clases" guid="_G5rAcYHjEe6SyvqpRUssfw" presentationName="Detallar clases" superActivities="_t2RD0YHWEe6tSf45z97pWw" linkToPredecessor="_VFov4YHjEe6SyvqpRUssfw" mandatoryInput="_dSXgxIHjEe6SyvqpRUssfw" performedPrimarilyBy="_dSXgwYHjEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_uKi-0IHjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_8UbugH5dEe68YMka0LkFQg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_IRfH8YHjEe6SyvqpRUssfw" name="refinar_clases" guid="_IRfH8YHjEe6SyvqpRUssfw" presentationName="Refinar clases" superActivities="_t2RD0YHWEe6tSf45z97pWw" linkToPredecessor="_V4OqcYHjEe6SyvqpRUssfw" mandatoryInput="_dSXgxIHjEe6SyvqpRUssfw" performedPrimarilyBy="_dSXgwYHjEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_vL4gAIHjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_BRjIwH5eEe68YMka0LkFQg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_JcfigIHjEe6SyvqpRUssfw" name="detallar_interfaces_de_usuario" guid="_JcfigIHjEe6SyvqpRUssfw" presentationName="Detallar interfaces de usuario" superActivities="_t2RD0YHWEe6tSf45z97pWw" linkToPredecessor="_WeqYUYHjEe6SyvqpRUssfw" mandatoryInput="_fm02sYHjEe6SyvqpRUssfw" performedPrimarilyBy="_dSXgwYHjEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_woyi4IHjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_E5vXcH5eEe68YMka0LkFQg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_KliOMYHjEe6SyvqpRUssfw" name="refinar_interfaces_de_usuario" guid="_KliOMYHjEe6SyvqpRUssfw" presentationName="Refinar interfaces de usuario" superActivities="_t2RD0YHWEe6tSf45z97pWw" linkToPredecessor="_XDCQsYHjEe6SyvqpRUssfw" mandatoryInput="_fm02sYHjEe6SyvqpRUssfw" performedPrimarilyBy="_dSXgwYHjEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_yBjsoIHjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_O0AoMH5eEe68YMka0LkFQg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LyctQIHjEe6SyvqpRUssfw" name="detallar_diagrama_de_sequencia" guid="_LyctQIHjEe6SyvqpRUssfw" presentationName="Detallar diagrama de sequencia" superActivities="_t2RD0YHWEe6tSf45z97pWw" linkToPredecessor="_Xq9zYYHjEe6SyvqpRUssfw" mandatoryInput="_kRIpsYHjEe6SyvqpRUssfw" performedPrimarilyBy="_dSXgwYHjEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_zrLV0IHjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_jkHaEH5eEe68YMka0LkFQg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_P67lkYHjEe6SyvqpRUssfw" name="refinar_diagrama_de_sequencia" guid="_P67lkYHjEe6SyvqpRUssfw" presentationName="Refinar diagrama de sequencia" superActivities="_t2RD0YHWEe6tSf45z97pWw" linkToPredecessor="_YiIE4YHjEe6SyvqpRUssfw" mandatoryInput="_kRIpsYHjEe6SyvqpRUssfw" performedPrimarilyBy="_dSXgwYHjEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_0pWOQIHjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_ouWqUH5eEe68YMka0LkFQg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_TvNvgYHjEe6SyvqpRUssfw" guid="_TvNvgYHjEe6SyvqpRUssfw" pred="_AnLusYHjEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_VFov4YHjEe6SyvqpRUssfw" guid="_VFov4YHjEe6SyvqpRUssfw" pred="_FdevQYHjEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_V4OqcYHjEe6SyvqpRUssfw" guid="_V4OqcYHjEe6SyvqpRUssfw" pred="_G5rAcYHjEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_WeqYUYHjEe6SyvqpRUssfw" guid="_WeqYUYHjEe6SyvqpRUssfw" pred="_IRfH8YHjEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XDCQsYHjEe6SyvqpRUssfw" guid="_XDCQsYHjEe6SyvqpRUssfw" pred="_JcfigIHjEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Xq9zYYHjEe6SyvqpRUssfw" guid="_Xq9zYYHjEe6SyvqpRUssfw" pred="_KliOMYHjEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_YiIE4YHjEe6SyvqpRUssfw" guid="_YiIE4YHjEe6SyvqpRUssfw" pred="_LyctQIHjEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_dSXgwYHjEe6SyvqpRUssfw" name="diseniador" guid="_dSXgwYHjEe6SyvqpRUssfw" presentationName="diseniador" briefDescription="profesional que se especializa en la concepción, planificación, y creación de la estructura, interacción del software" isPlanned="false" superActivities="_t2RD0YHWEe6tSf45z97pWw">
+      <methodElementProperty xmi:id="_dSXgwoHjEe6SyvqpRUssfw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_dSXgyIHjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_Uey7oHs7Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dSXgxIHjEe6SyvqpRUssfw" name="diagrama_de_clases" guid="_dSXgxIHjEe6SyvqpRUssfw" presentationName="diagrama de clases" briefDescription="representación visual estática de la estructura y las relaciones entre las clases que forman parte de un sistema." isPlanned="false" superActivities="_t2RD0YHWEe6tSf45z97pWw">
+      <methodElementProperty xmi:id="_dSXgxYHjEe6SyvqpRUssfw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_dSXgx4HjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <guidelines href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_RMdBMIHKEe6_uKhH88PieA"/>
+      <WorkProduct href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_o6QIoHs6Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fm02sYHjEe6SyvqpRUssfw" name="interface_de_usuario" guid="_fm02sYHjEe6SyvqpRUssfw" presentationName="interface de usuario" briefDescription="Medio a través del cual un usuario interactúa con un sistema informático, aplicaciones, software o dispositivos electrónicos." isPlanned="false" superActivities="_t2RD0YHWEe6tSf45z97pWw">
+      <methodElementProperty xmi:id="_fm02soHjEe6SyvqpRUssfw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_fm02tIHjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <guidelines href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_dv4FgIHKEe6_uKhH88PieA"/>
+      <WorkProduct href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_s71uwHs6Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_kRIpsYHjEe6SyvqpRUssfw" name="diagrama_de_sequencia" guid="_kRIpsYHjEe6SyvqpRUssfw" presentationName="diagrama de sequencia" briefDescription="Representa visualmente la secuencia de interacciones entre los objetos en un escenario específico" isPlanned="false" superActivities="_t2RD0YHWEe6tSf45z97pWw">
+      <methodElementProperty xmi:id="_kRIpsoHjEe6SyvqpRUssfw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_kRIptIHjEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <guidelines href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_Ymyr0IHKEe6_uKhH88PieA"/>
+      <WorkProduct href="uma://_gnTyYHqHEe6pYrzmqHi-DA#_u1pJAHs6Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_UbowoYHjEe6SyvqpRUssfw" guid="_UbowoYHjEe6SyvqpRUssfw" pred="_EYEmYIHjEe6SyvqpRUssfw"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_t2RD0YHWEe6tSf45z97pWw" name="disenioComponentes" guid="_t2RD0YHWEe6tSf45z97pWw" presentationName="disenioComponentes" briefDescription="Por medio del disenio se identifica el flujo para identificar cuales son los componentes principales y ademas se define la estructura que van a tener" breakdownElements="_AnLusYHjEe6SyvqpRUssfw _EYEmYIHjEe6SyvqpRUssfw _FdevQYHjEe6SyvqpRUssfw _G5rAcYHjEe6SyvqpRUssfw _IRfH8YHjEe6SyvqpRUssfw _JcfigIHjEe6SyvqpRUssfw _KliOMYHjEe6SyvqpRUssfw _LyctQIHjEe6SyvqpRUssfw _P67lkYHjEe6SyvqpRUssfw _dSXgwYHjEe6SyvqpRUssfw _dSXgxIHjEe6SyvqpRUssfw _fm02sYHjEe6SyvqpRUssfw _kRIpsYHjEe6SyvqpRUssfw">
       <presentation xmi:id="-ke084X6rrwao_uGwYjdGqg" href="uma://-ke084X6rrwao_uGwYjdGqg#-ke084X6rrwao_uGwYjdGqg"/>
     </process>
   </org.eclipse.epf.uma:ProcessComponent>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_C2GhgYHcEe6SyvqpRUssfw" guid="_C2GhgYHcEe6SyvqpRUssfw">
+    <resourceDescriptors xmi:id="_C2GhgoHcEe6SyvqpRUssfw" id="-WYPd8sMNFIP2UjbdogJDgg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_C1gEkIHcEe6SyvqpRUssfw" name="administrarRequisitosDeCambio" guid="_C1gEkIHcEe6SyvqpRUssfw">
+    <methodElementProperty xmi:id="_C1gEkoHcEe6SyvqpRUssfw" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_tbtAAIHcEe6SyvqpRUssfw" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_48llEYHjEe6SyvqpRUssfw" name="definir_requisitos" guid="_48llEYHjEe6SyvqpRUssfw" presentationName="Definir requisitos" superActivities="_C1gEkYHcEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_CD8LJoHkEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_q-mrIH5dEe68YMka0LkFQg"/>
+      <performedPrimarilyByExcluded href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_REb4IHs8Ee61W_sbNWyaKw"/>
+      <mandatoryInputExclude href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_alLOkHs8Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6Bf-sYHjEe6SyvqpRUssfw" name="detallar_requisitos" guid="_6Bf-sYHjEe6SyvqpRUssfw" presentationName="Detallar requisitos" superActivities="_C1gEkYHcEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_H-CyEIHkEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_wmhV4H5dEe68YMka0LkFQg"/>
+      <performedPrimarilyByExcluded href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_REb4IHs8Ee61W_sbNWyaKw"/>
+      <mandatoryInputExclude href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_alLOkHs8Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_7D86MYHjEe6SyvqpRUssfw" name="refinar_requisitos" guid="_7D86MYHjEe6SyvqpRUssfw" presentationName="Refinar requisitos" briefDescription="Esta actividad implica revisar, clarificar, mejorar y detallar los requisitos iniciales del proyecto." superActivities="_C1gEkYHcEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_LZBrMIHkEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_IEF5AHs8Ee61W_sbNWyaKw"/>
+      <performedPrimarilyByExcluded href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_REb4IHs8Ee61W_sbNWyaKw"/>
+      <mandatoryInputExclude href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_alLOkHs8Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_sYZH4IHnEe6SyvqpRUssfw" name="revisor_de_requisitos" guid="_sYZH4IHnEe6SyvqpRUssfw" presentationName="Revisor de requisitos" briefDescription="Responsable de analizar, examinar y validar la calidad, claridad, consistencia y viabilidad de los requisitos del proyecto." isPlanned="false" superActivities="_C1gEkYHcEe6SyvqpRUssfw" isSynchronizedWithSource="false">
+      <methodElementProperty xmi:id="_wImqIIHnEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_REb4IHs8Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_z7gUAIHnEe6SyvqpRUssfw" name="formularios_en_papel" guid="_z7gUAIHnEe6SyvqpRUssfw" presentationName="Formularios en papel" briefDescription="Documentos impresos preestructurados diseñados para recopilar información específica de manera escrita. " isPlanned="false" superActivities="_C1gEkYHcEe6SyvqpRUssfw" isSynchronizedWithSource="false">
+      <methodElementProperty xmi:id="_1-Z_4IHnEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <guidelines href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_4JTt0IG-Ee6oP_ocqmhEjg"/>
+      <WorkProduct href="uma://_lPL8cHqHEe6pYrzmqHi-DA#_alLOkHs8Ee61W_sbNWyaKw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_C1gEkYHcEe6SyvqpRUssfw" name="administrarRequisitosDeCambio" guid="_C1gEkYHcEe6SyvqpRUssfw" presentationName="administrarRequisitosDeCambio" briefDescription="Define el flujo sobre como se deben administrar los requisitos de cambios" breakdownElements="_48llEYHjEe6SyvqpRUssfw _6Bf-sYHjEe6SyvqpRUssfw _7D86MYHjEe6SyvqpRUssfw _sYZH4IHnEe6SyvqpRUssfw _z7gUAIHnEe6SyvqpRUssfw">
+      <presentation xmi:id="-WYPd8sMNFIP2UjbdogJDgg" href="uma://-WYPd8sMNFIP2UjbdogJDgg#-WYPd8sMNFIP2UjbdogJDgg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

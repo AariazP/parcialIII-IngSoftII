@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_DYQ98IHdEe6SyvqpRUssfw" guid="_DYQ98IHdEe6SyvqpRUssfw">
+    <resourceDescriptors xmi:id="_DYRlAIHdEe6SyvqpRUssfw" id="-JDZx1bos0hq1aOvca8Ms8g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_DXb3gIHdEe6SyvqpRUssfw" name="modeladoDeNegocio" guid="_DXb3gIHdEe6SyvqpRUssfw">
+    <methodElementProperty xmi:id="_DXb3goHdEe6SyvqpRUssfw" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_Fk_UMIHdEe6SyvqpRUssfw" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_MNCw0IHeEe6SyvqpRUssfw" guid="_MNCw0IHeEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NS5loYHeEe6SyvqpRUssfw" guid="_NS5loYHeEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_OGWb0YHeEe6SyvqpRUssfw" guid="_OGWb0YHeEe6SyvqpRUssfw"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_DXb3gYHdEe6SyvqpRUssfw" name="modeladoDeNegocio" guid="_DXb3gYHdEe6SyvqpRUssfw" presentationName="modeladoDeNegocio" briefDescription="Este es el workflow de la disciplina modelado de negocio">
+      <presentation xmi:id="-JDZx1bos0hq1aOvca8Ms8g" href="uma://-JDZx1bos0hq1aOvca8Ms8g#-JDZx1bos0hq1aOvca8Ms8g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

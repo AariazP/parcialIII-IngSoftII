@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_42y_wYHbEe6SyvqpRUssfw" guid="_42y_wYHbEe6SyvqpRUssfw">
+    <resourceDescriptors xmi:id="_428wwIHbEe6SyvqpRUssfw" id="-o3e-0BO3AXAYq0obsCqJsQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_4xSNoIHbEe6SyvqpRUssfw" name="analizarEstadoNegocioActual" guid="_4xSNoIHbEe6SyvqpRUssfw">
+    <methodElementProperty xmi:id="_4xSNooHbEe6SyvqpRUssfw" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_c0WMMIHcEe6SyvqpRUssfw" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_jzVawIHgEe6SyvqpRUssfw" name="detallar_un_vocabulario_de_negocio_comn" guid="_jzVawIHgEe6SyvqpRUssfw" presentationName="Detallar un vocabulario de negocio común" briefDescription="Identificar, definir y documentar un conjunto de términos y conceptos utilizados dentro de la organización de manera uniforme y clara. Esta tarea es fundamental para garantizar la coherencia y la comprensión compartida entre los diferentes departamentos, equipos y áreas funcionales de la empresa." superActivities="_4xSNoYHbEe6SyvqpRUssfw" performedPrimarilyBy="_AWQBoYHhEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_AWQBo4HhEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_0s7ewHs1Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nplTkYHgEe6SyvqpRUssfw" name="validar_reglas_de_negocio" guid="_nplTkYHgEe6SyvqpRUssfw" presentationName="Validar reglas de negocio" briefDescription="Proceso exhaustivo para confirmar la precisión, la coherencia y la eficacia de las reglas establecidas dentro de una organización. " superActivities="_4xSNoYHbEe6SyvqpRUssfw" linkToPredecessor="_zFogIYHgEe6SyvqpRUssfw" mandatoryInput="_AWQBpYHhEe6SyvqpRUssfw" performedPrimarilyBy="_AWQBoYHhEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_CWCIEIHhEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_t6JG4Hs2Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_px7gIYHgEe6SyvqpRUssfw" name="identificar_objetivo_de_la_organizaci" guid="_px7gIYHgEe6SyvqpRUssfw" presentationName="Identificar objetivo de la organizacio" briefDescription=" Proceso de definir y clarificar la misión, la visión y los objetivos fundamentales que orientan las actividades y decisiones de una empresa. " superActivities="_4xSNoYHbEe6SyvqpRUssfw" linkToPredecessor="_z3jFQYHgEe6SyvqpRUssfw" isSynchronizedWithSource="false" mandatoryInput="_AWQBpYHhEe6SyvqpRUssfw" performedPrimarilyBy="_AWQBoYHhEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_EQ1n4IHhEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <methodElementProperty xmi:id="_Ei5oQIHhEe6SyvqpRUssfw" name="descriptor_customization" value="2"/>
+      <Task href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_6Oo-YHs2Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_r7tQEYHgEe6SyvqpRUssfw" name="detallar_y_validar_objetivos" guid="_r7tQEYHgEe6SyvqpRUssfw" presentationName="Detallar y validar objetivos" briefDescription="Proceso fundamental en la gestión estratégica de una organización, que se enfoca en definir de manera específica y precisa los objetivos planteados y garantizar que estos sean coherentes, alcanzables y alineados con la dirección estratégica de la empresa." superActivities="_4xSNoYHbEe6SyvqpRUssfw" linkToPredecessor="_0ph70YHgEe6SyvqpRUssfw" mandatoryInput="_AWQBpYHhEe6SyvqpRUssfw" performedPrimarilyBy="_AWQBoYHhEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_Fw0M4IHhEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_I21W0Hs3Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_zFogIYHgEe6SyvqpRUssfw" guid="_zFogIYHgEe6SyvqpRUssfw" pred="_jzVawIHgEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_z3jFQYHgEe6SyvqpRUssfw" guid="_z3jFQYHgEe6SyvqpRUssfw" pred="_nplTkYHgEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_0ph70YHgEe6SyvqpRUssfw" guid="_0ph70YHgEe6SyvqpRUssfw" pred="_px7gIYHgEe6SyvqpRUssfw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_AWQBoYHhEe6SyvqpRUssfw" name="analista_de_procesos_de_negocio" guid="_AWQBoYHhEe6SyvqpRUssfw" presentationName="Analista de procesos de negocio" briefDescription="El rol de Analista de Procesos de Negocio implica la responsabilidad de examinar, evaluar y mejorar los diferentes aspectos operativos de una empresa. " isPlanned="false" superActivities="_4xSNoYHbEe6SyvqpRUssfw" responsibleFor="_AWQBpYHhEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_AWQBooHhEe6SyvqpRUssfw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_AWQBp4HhEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_DpPtEHs2Ee61W_sbNWyaKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_AWQBpYHhEe6SyvqpRUssfw" name="reglas_de_negocio" guid="_AWQBpYHhEe6SyvqpRUssfw" presentationName="Reglas de negocio" briefDescription="Las reglas de negocio son declaraciones o directrices que establecen las políticas, restricciones o condiciones que rigen el comportamiento, las decisiones y las operaciones dentro de una organización. " isPlanned="false" superActivities="_4xSNoYHbEe6SyvqpRUssfw">
+      <methodElementProperty xmi:id="_AWQBpoHhEe6SyvqpRUssfw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_AWQBqIHhEe6SyvqpRUssfw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <guidelines href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_DV_SkIHIEe6tAKBTdHC13g"/>
+      <WorkProduct href="uma://_cfm9MHqHEe6pYrzmqHi-DA#_LTNvIHs2Ee61W_sbNWyaKw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4xSNoYHbEe6SyvqpRUssfw" name="analizarEstadoNegocioActual" guid="_4xSNoYHbEe6SyvqpRUssfw" presentationName="analizarEstadoNegocioActual" briefDescription="Define el flujo de analisis del negocio para un correcto modelado" breakdownElements="_jzVawIHgEe6SyvqpRUssfw _nplTkYHgEe6SyvqpRUssfw _px7gIYHgEe6SyvqpRUssfw _r7tQEYHgEe6SyvqpRUssfw _AWQBoYHhEe6SyvqpRUssfw _AWQBpYHhEe6SyvqpRUssfw">
+      <presentation xmi:id="-o3e-0BO3AXAYq0obsCqJsQ" href="uma://-o3e-0BO3AXAYq0obsCqJsQ#-o3e-0BO3AXAYq0obsCqJsQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

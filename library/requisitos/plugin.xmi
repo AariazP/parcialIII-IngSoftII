@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_lPVtcHqHEe6pYrzmqHi-DA" guid="_lPVtcHqHEe6pYrzmqHi-DA">
+    <subManagers xmi:id="_C2GhgYHcEe6SyvqpRUssfw" href="uma://_C1gEkIHcEe6SyvqpRUssfw#_C2GhgYHcEe6SyvqpRUssfw"/>
+    <subManagers xmi:id="_6TOFAYHcEe6SyvqpRUssfw" href="uma://_6SnoEIHcEe6SyvqpRUssfw#_6TOFAYHcEe6SyvqpRUssfw"/>
     <resourceDescriptors xmi:id="_xzg6UIHHEe6tAKBTdHC13g" id="-ye_soCP1Ybn1Z9o1QizJaA" uri="guidances/guidelines/formularios_en_papel.xmi"/>
+    <resourceDescriptors xmi:id="_C1gElIHcEe6SyvqpRUssfw" id="_C1gEkIHcEe6SyvqpRUssfw" uri="capabilitypatterns/administrarRequisitosDeCambio/model.xmi"/>
+    <resourceDescriptors xmi:id="_6SnoFIHcEe6SyvqpRUssfw" id="_6SnoEIHcEe6SyvqpRUssfw" uri="capabilitypatterns/requisitos/model.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_lPL8cHqHEe6pYrzmqHi-DA" name="requisitos" guid="_lPL8cHqHEe6pYrzmqHi-DA">
     <methodElementProperty xmi:id="_lPVtcnqHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
@@ -35,8 +39,12 @@
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lPL8enqHEe6pYrzmqHi-DA" name="Hidden" guid="_lPL8enqHEe6pYrzmqHi-DA">
             <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_lPL8e3qHEe6pYrzmqHi-DA" name="Custom Categories" guid="_lPL8e3qHEe6pYrzmqHi-DA" categorizedElements="_450dQH5nEe68YMka0LkFQg"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_450dQH5nEe68YMka0LkFQg" name="recabacion_de_requisitos" guid="_450dQH5nEe68YMka0LkFQg" presentationName="recabacion de requisitos" categorizedElements="_ut1xcH5nEe68YMka0LkFQg _qVYDwH5kEe68YMka0LkFQg _QBKwIH5kEe68YMka0LkFQg">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_450dQH5nEe68YMka0LkFQg" name="recabacion_de_requisitos" guid="_450dQH5nEe68YMka0LkFQg" presentationName="recabacion de requisitos">
             <methodElementProperty xmi:id="_8WoiYH5nEe68YMka0LkFQg" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Domain" href="#_ut1xcH5nEe68YMka0LkFQg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DisciplineGrouping" href="#_qVYDwH5kEe68YMka0LkFQg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:RoleSetGrouping" href="#_QBKwIH5kEe68YMka0LkFQg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_C1gEkIHcEe6SyvqpRUssfw#_C1gEkYHcEe6SyvqpRUssfw"/>
           </contentElements>
         </childPackages>
       </childPackages>
@@ -65,7 +73,10 @@
           </contentElements>
         </childPackages>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lPL8fXqHEe6pYrzmqHi-DA" name="CapabilityPatterns" guid="_lPL8fXqHEe6pYrzmqHi-DA"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lPL8fXqHEe6pYrzmqHi-DA" name="CapabilityPatterns" guid="_lPL8fXqHEe6pYrzmqHi-DA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_C1gEkIHcEe6SyvqpRUssfw" href="uma://_C1gEkIHcEe6SyvqpRUssfw#_C1gEkIHcEe6SyvqpRUssfw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_6SnoEIHcEe6SyvqpRUssfw" href="uma://_6SnoEIHcEe6SyvqpRUssfw#_6SnoEIHcEe6SyvqpRUssfw"/>
+      </childPackages>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lPL8fnqHEe6pYrzmqHi-DA" name="DeliveryProcesses" guid="_lPL8fnqHEe6pYrzmqHi-DA"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lPL8f3qHEe6pYrzmqHi-DA" name="ProcessContributions" guid="_lPL8f3qHEe6pYrzmqHi-DA"/>

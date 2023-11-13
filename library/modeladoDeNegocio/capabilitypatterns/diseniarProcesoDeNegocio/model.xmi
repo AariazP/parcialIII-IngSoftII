@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ProcessComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_79zJwIHXEe6Xl-ZUUpqG6A" name="diseniarProcesoDeNegocio" guid="_79zJwIHXEe6Xl-ZUUpqG6A">
-  <methodElementProperty name="pkg_loadCheck" value="true"/>
-  <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_79zJwYHXEe6Xl-ZUUpqG6A" name="diseniarProcesoDeNegocio" guid="_79zJwYHXEe6Xl-ZUUpqG6A" presentationName="diseniarProcesoDeNegocio">
-    <defaultContext href="uma://_RkNmoHqHEe6pYrzmqHi-DA#_G_wLMH8uEe6lD8DNVp3fiw"/>
-  </process>
-</org.eclipse.epf.uma:ProcessComponent>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_6TOFAYHcEe6SyvqpRUssfw" guid="_6TOFAYHcEe6SyvqpRUssfw">
+    <resourceDescriptors xmi:id="_6TOFAoHcEe6SyvqpRUssfw" id="-B4NJbBYnWCHfK_madhamHQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_6SnoEIHcEe6SyvqpRUssfw" name="requisitos" guid="_6SnoEIHcEe6SyvqpRUssfw">
+    <methodElementProperty xmi:id="_6SnoEoHcEe6SyvqpRUssfw" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_-JWpEIHcEe6SyvqpRUssfw" name="me_edited" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_6SnoEYHcEe6SyvqpRUssfw" name="requisitos" guid="_6SnoEYHcEe6SyvqpRUssfw" presentationName="requisitos" briefDescription="Este es el workflow de la disciplina requisitos">
+      <presentation xmi:id="-B4NJbBYnWCHfK_madhamHQ" href="uma://-B4NJbBYnWCHfK_madhamHQ#-B4NJbBYnWCHfK_madhamHQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

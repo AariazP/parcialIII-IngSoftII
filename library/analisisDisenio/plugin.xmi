@@ -2,10 +2,12 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_gneKcHqHEe6pYrzmqHi-DA" guid="_gneKcHqHEe6pYrzmqHi-DA">
     <subManagers xmi:id="_t8Xr0YHWEe6tSf45z97pWw" href="uma://_t2RD0IHWEe6tSf45z97pWw#_t8Xr0YHWEe6tSf45z97pWw"/>
+    <subManagers xmi:id="_IYbsMYHdEe6SyvqpRUssfw" href="uma://_IXiUUIHdEe6SyvqpRUssfw#_IYbsMYHdEe6SyvqpRUssfw"/>
     <resourceDescriptors xmi:id="_XOomEYHKEe6_uKhH88PieA" id="-1kfDCQgtx0ygeD2ChpOyCQ" uri="guidances/guidelines/diagrama_de_clases.xmi"/>
     <resourceDescriptors xmi:id="_cPlXcIHKEe6_uKhH88PieA" id="-xwEEC0zvr0hTVTRVlbgCGQ" uri="guidances/guidelines/diagrama_de_secuencia.xmi"/>
     <resourceDescriptors xmi:id="_hvy3soHKEe6_uKhH88PieA" id="-_3D1kcOrswGeEi1DI1_4Bw" uri="guidances/guidelines/interfaces_de_usuario.xmi"/>
     <resourceDescriptors xmi:id="_t7VKAIHWEe6tSf45z97pWw" id="_t2RD0IHWEe6tSf45z97pWw" uri="capabilitypatterns/disenioComponentes/model.xmi"/>
+    <resourceDescriptors xmi:id="_IXsFUYHdEe6SyvqpRUssfw" id="_IXiUUIHdEe6SyvqpRUssfw" uri="capabilitypatterns/analisisYDisenio/model.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_gnTyYHqHEe6pYrzmqHi-DA" name="analisisDisenio" guid="_gnTyYHqHEe6pYrzmqHi-DA">
     <methodElementProperty xmi:id="_gneKcnqHEe6pYrzmqHi-DA" name="plugin_synFree" value="true"/>
@@ -39,8 +41,12 @@
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gnTyanqHEe6pYrzmqHi-DA" name="Hidden" guid="_gnTyanqHEe6pYrzmqHi-DA">
             <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_gnTya3qHEe6pYrzmqHi-DA" name="Custom Categories" guid="_gnTya3qHEe6pYrzmqHi-DA" categorizedElements="_1o-asH8vEe6TS5SCGM9NHA"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_1o-asH8vEe6TS5SCGM9NHA" name="analisis_y_disenio" guid="_1o-asH8vEe6TS5SCGM9NHA" presentationName="analisis y disenio" categorizedElements="_mtkvQH5nEe68YMka0LkFQg _hog58H5nEe68YMka0LkFQg _CCo_wH5kEe68YMka0LkFQg">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_1o-asH8vEe6TS5SCGM9NHA" name="analisis_y_disenio" guid="_1o-asH8vEe6TS5SCGM9NHA" presentationName="analisis y disenio">
             <methodElementProperty xmi:id="_NdmGcH8wEe6TS5SCGM9NHA" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Domain" href="#_mtkvQH5nEe68YMka0LkFQg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Discipline" href="#_hog58H5nEe68YMka0LkFQg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:RoleSet" href="#_CCo_wH5kEe68YMka0LkFQg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_t2RD0IHWEe6tSf45z97pWw#_t2RD0YHWEe6tSf45z97pWw"/>
           </contentElements>
         </childPackages>
       </childPackages>
@@ -103,6 +109,7 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gnTybXqHEe6pYrzmqHi-DA" name="CapabilityPatterns" guid="_gnTybXqHEe6pYrzmqHi-DA">
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_t2RD0IHWEe6tSf45z97pWw" href="uma://_t2RD0IHWEe6tSf45z97pWw#_t2RD0IHWEe6tSf45z97pWw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_IXiUUIHdEe6SyvqpRUssfw" href="uma://_IXiUUIHdEe6SyvqpRUssfw#_IXiUUIHdEe6SyvqpRUssfw"/>
       </childPackages>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gnTybnqHEe6pYrzmqHi-DA" name="DeliveryProcesses" guid="_gnTybnqHEe6pYrzmqHi-DA"/>
